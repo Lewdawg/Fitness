@@ -73,12 +73,146 @@
 			<button type="button" class="btn btn-primary mw-50 fs-4 m-5 p-5 btn-lg">All Workouts</button>
 		</div>
 
+
 		<div id="secondChoice" class="displayNone">
-			<button type="button" class="btn btn-primary mw-50 fs-4 m-5 p-5 btn-lg">Beginner</button>
+			<button id="beginner" type="button" class="btn btn-primary mw-50 fs-4 m-5 p-5 btn-lg">Beginner</button>
 
-			<button type="button" class="btn btn-primary mw-50 fs-4 m-5 p-5 btn-lg">intermediate</button>
+			<button id="inter" type="button" class="btn btn-primary mw-50 fs-4 m-5 p-5 btn-lg">intermediate</button>
 
-			<button type="button" class="btn btn-primary mw-50 fs-4 m-5 p-5 btn-lg">Hard</button>
+			<button id="hard" type="button" class="btn btn-primary mw-50 fs-4 m-5 p-5 btn-lg">Hard</button>
+		</div>
+
+		<div id="thirdChoice" class="displayNone">
+			<div id="begDiv" class="row">
+
+				<div class="card m-4" style="width: 18rem;">
+					<div class="card-body">
+
+						<h5 class="card-title text-center"><u>Pussy Workout 1</u></h5>
+
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Burpees:</h5>
+								<h5>10x</h5>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Push Ups:</h5>
+								<h5>10x</h5>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Squats:</h5>
+								<h5>10x</h5>
+							</div>
+						</div>
+
+						<p class="card-text text-center border-top border-3">Repeat 3 times</p>
+						<p class="card-text text-center border-top border-2">What's your best time?</p>
+						<a href="#" class="btn btn-primary col-12 mx-auto">Start Workout</a>
+					</div>
+				</div>
+
+				<div class="card m-4" style="width: 18rem;">
+					<div class="card-body">
+
+						<h5 class="card-title text-center"><u>Pussy Workout 2</u></h5>
+
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Burpees:</h5>
+								<h5>10x</h5>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Push Ups:</h5>
+								<h5>10x</h5>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Squats:</h5>
+								<h5>10x</h5>
+							</div>
+						</div>
+
+						<p class="card-text text-center border-top border-3">Repeat 3 times</p>
+						<p class="card-text text-center border-top border-2">What's your best time?</p>
+						<a href="#" class="btn btn-primary col-12 mx-auto">Start Workout</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="interDiv">
+				<div class="card" style="width: 18rem;">
+					<div class="card-body">
+
+						<h5 class="card-title"><u>Normal Workout 1</u></h5>
+
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Burpees:</h5>
+								<h5>20x</h5>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Push Ups:</h5>
+								<h5>20x</h5>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Squats:</h5>
+								<h5>20x</h5>
+							</div>
+						</div>
+
+						<p class="card-text">Repeat 4 times</p>
+						<p class="card-text">What's your best time?</p>
+						<a href="#" class="btn btn-primary m-1">Start Workout</a>
+						<input class='' type="text">
+					</div>
+				</div>
+			</div>
+
+			<div id="hardDiv">
+				<div class="card" style="width: 18rem;">
+					<div class="card-body">
+
+						<h5 class="card-title"><u>Hard Workout 1</u></h5>
+
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Burpees:</h5>
+								<h5>30x</h5>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Push Ups:</h5>
+								<h5>30x</h5>
+							</div>
+						</div>
+						<div class="col-xs-4">
+							<div class="profile-overview">
+								<h5>Squats:</h5>
+								<h5>30x</h5>
+							</div>
+						</div>
+
+						<p class="card-text">Repeat 5 times</p>
+						<p class="card-text">What's your best time?</p>
+						<a href="#" class="btn btn-primary m-1">Start Workout</a>
+						<input class='' type="text">
+					</div>
+				</div>
+			</div>
+
 		</div>
 
 	</main>
@@ -91,12 +225,47 @@
 
 	<script>
 
+		// Indoor/Outdoor
+
 		let firstChoice = document.getElementById('firstChoice')
 		let secondChoice = document.getElementById('secondChoice')
+		let thirdChoice = document.getElementById('thirdChoice')
 
 		firstChoice.addEventListener('click', () => {
+
 			firstChoice.classList.add('displayNone')
 			secondChoice.classList.add('displayBlock')
+		})
+
+		secondChoice.addEventListener('click', () => {
+			secondChoice.style.display = 'none'
+			// secondChoice.classList.add('displayNone')
+			thirdChoice.classList.add('displayBlock')
+		})
+
+		//Difficulty choice
+
+		let beginner = document.getElementById('beginner')
+		let inter = document.getElementById('inter')
+		let hard = document.getElementById('hard')
+
+		let begDiv = document.getElementById('begDiv')
+		let interDiv = document.getElementById('interDiv')
+		let hardDiv = document.getElementById('hardDiv')
+
+		beginner.addEventListener('click', () => {
+			interDiv.style.display = 'none'
+			hardDiv.style.display = 'none'
+		})
+
+		inter.addEventListener('click', () => {
+			begDiv.style.display = 'none'
+			hardDiv.style.display = 'none'
+		})
+
+		hard.addEventListener('click', () => {
+			begDiv.style.display = 'none'
+			interDiv.style.display = 'none'
 		})
 
 	</script>
