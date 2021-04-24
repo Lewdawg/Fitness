@@ -1,0 +1,12 @@
+.homepage {
+	/* %PUBLIC_URL%/img/bg-home.jpg */
+	background-image: url(/src/img/bg-home.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	margin-top: 56px;
+}
+
+button {
+	opacity: 0.7;
+}

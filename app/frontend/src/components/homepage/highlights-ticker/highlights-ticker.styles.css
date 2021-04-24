@@ -1,0 +1,48 @@
+.highlights-ticker {
+	opacity: 0.7;
+}
+
+.highlights-ticker {
+	overflow: hidden;
+}
+
+.highlights-ticker-content {
+    display: flex;
+	justify-content: space-between;
+}
+.highlights-ticker-content div {
+    display: flex;
+	justify-content: space-between;
+}
+
+.highlights-ticker-content .part-1 {
+    animation: move1 10s linear infinite;
+}
+
+.highlights-ticker-content .part-2 {
+    transform: translateX(-200%);
+    animation: move2 10s linear 5s infinite;
+}
+
+.highlights-ticker h3 {
+	margin: 10px 40px;
+    white-space: nowrap;
+}
+
+@keyframes move1 {
+	0% {
+		transform: translateX(-100%);
+	}
+	100% {
+		transform: translateX(100%);
+	}
+}
+
+@keyframes move2 {
+	0% {
+		transform: translateX(-200%);
+	}
+	100% {
+		transform: translateX(0%);
+	}
+}
