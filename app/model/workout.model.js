@@ -5,8 +5,12 @@ const workoutSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    difficulty: {
+        type: String,
+        required: true,
+    },
     duration: {
-        type: Number,
+        type: String,
         required: true
     },
     targetArea: {
@@ -15,6 +19,10 @@ const workoutSchema = new mongoose.Schema({
     },
     exercises: {
         type: Array,
+        required: true
+    },
+    rounds: {
+        type: String,
         required: true
     },
     calories: {
