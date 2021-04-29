@@ -3,7 +3,8 @@ import './stopwatch.css';
 
 // https://dev.to/abdulbasit313/how-to-develop-a-stopwatch-in-react-js-with-custom-hook-561b
 
-const stopWatch = () => {
+const StopWatch = () => {
+
     const [timer, setTimer] = useState(0)
     const [isActive, setIsActive] = useState(false)
     const [isPaused, setIsPaused] = useState(false)
@@ -32,9 +33,13 @@ const stopWatch = () => {
 
     return (
         <div className="app">
+
             <h3>React Stopwatch</h3>
+
             <div className='stopwatch-card'>
+
                 <p>{timer}</p> {/* here we will show timer */}
+
                 <div className='buttons'>
                     <button onClick={handleStart}>Start</button>
                     <button onClick={handlePause}>Pause</button>
@@ -46,4 +51,4 @@ const stopWatch = () => {
     );
 }
 
-export default stopWatch;
+export default StopWatch;
