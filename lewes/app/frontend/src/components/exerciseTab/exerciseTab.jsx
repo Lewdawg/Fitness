@@ -1,5 +1,7 @@
 import './exerciseTab.css';
 
+import ExerciseTabCard from './exerciseTabCard/exerciseTabCard.jsx';
+
 function ExerciseTab() {
 
 
@@ -8,13 +10,26 @@ function ExerciseTab() {
 
         <>
 
-            <div className="theExerciseTab" style={{ width: '30%', height: '30%' }}>
+            <div className="theExerciseTab" style={{ width: '100%', height: '100%' }}>
 
                 <h2>Exercise.title</h2>
 
+                <div className="theExerciseTabCollection" style={{ width: '97%', height: '30%' }}>
 
-                <div className="theExerciseTabCard" style={{ width: '100%', height: '80%' }}>
-                    <h1>Hello</h1>
+                    <ExerciseTabCard />
+                    <ExerciseTabCard />
+                    <ExerciseTabCard />
+                    <ExerciseTabCard />
+                    <ExerciseTabCard />
+                    <ExerciseTabCard />
+
+                    <ExerciseTabCard />
+                    <ExerciseTabCard />
+                    <ExerciseTabCard />
+                    {/* <ExerciseTabCard />
+                    <ExerciseTabCard />
+                    <ExerciseTabCard /> */}
+
                 </div>
 
             </div>

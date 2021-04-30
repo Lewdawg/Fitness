@@ -6,10 +6,21 @@
     margin: auto;
 }
 
-.theExerciseTabCard {
+.theExerciseTabCollection {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: red;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    /* background-color: red; */
     align-items: center;
+    margin: 0 auto;
+    border-radius: 25px;
+    
 }
+
+.theExerciseTabCard {
+ 
+    margin: 5px 0;
+    border: 5px solid green;
+    border-radius: 25px;
+}
+
