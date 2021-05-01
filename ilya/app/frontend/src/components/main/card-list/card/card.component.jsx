@@ -1,8 +1,12 @@
 import './card.styles.css';
 
+
 function Card({ workout }) {
-	
+
+
+
 	return (
+
 		<div
 			className="card m-4"
 			style={{ border: "4px solid red" }}

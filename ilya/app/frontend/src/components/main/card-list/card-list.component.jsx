@@ -15,7 +15,7 @@ function CardList({ workouts, quickSearchFilter }) {
 
 		<div className="card-list">
 
-			{/* Basically... if true display Card */}
+			{/* I think... if only one card display ↓ */}
 			{quickSearchFilter.active ? workouts.filter((workout, index) => {
 				if (
 					workout.difficulty === quickSearchFilter.difficulty &&
@@ -26,7 +26,7 @@ function CardList({ workouts, quickSearchFilter }) {
 				return false;
 
 			})
-				// If false display 
+				// else map through cards and display them all 
 				: workouts.map((workout, index) => {
 					if (index === 0) return true;
 					return <Card {...{ key: index + 1, workout }} />;

@@ -25,7 +25,7 @@ function QuickSearch({
 
 		// Returns an array of 'Carousel.Item'.
 		const indicators = document.querySelectorAll(
-			'#quick-search .carousel-indicators li' 		//←quick-search is the id of the carousel and I presume '.carousel-indicators li' represents the Carousel.Item within it
+			'#quick-search .carousel-indicators li' 		//← quick-search is the id of the carousel and I presume '.carousel-indicators li' represents the Carousel.Item within it
 		);
 		console.log(indicators[0]);
 

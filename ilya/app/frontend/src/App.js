@@ -9,8 +9,9 @@ import Testing from './App.testing.jsx';
 
 function App() {
 
-	//Passed into main component
+	//Passed into main component and then card-list 
 	const [workouts, setWorkouts] = useState([{ "STATE NAME": "WORKOUTS" }]);
+
 
 	useEffect(() => {
 
@@ -19,6 +20,7 @@ function App() {
 			.catch(console.error);
 
 	}, []);
+
 
 	//Passed into main component
 	const [quickSearchFilter, setQuickSearchFilter] = useState({ "STATE NAME": "QUICK SEARCH FILTER" });
