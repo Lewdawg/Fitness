@@ -1,0 +1,96 @@
+[
+	{
+		"title": "Run Time",
+		"difficulty": "Easy",
+		"duration": "Timed",
+		"exercises": [
+			{ "name": "run", "reps": "1000m", "sets": "1" },
+			{ "name": "squat pulses", "reps": "50", "sets": "1" },
+			{ "name": "pull-ups or push ups", "reps": "5", "sets": "1" }
+		],
+		"rounds": "5",
+		"calories": "250",
+		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+	},
+	{
+		"title": "The Beast",
+		"difficulty": "Hard",
+		"duration": "60min",
+		"exercises": [
+			{ "name": "run", "reps": "800m", "sets": "1" },
+			{ "name": "double-under skips", "reps": "80", "sets": "1" },
+			{ "name": "squats", "reps": "60", "sets": "1" },
+			{ "name": "muscle ups or pull ups", "reps": "10", "sets": "1" }
+		],
+		"rounds": "every 10min",
+		"calories": "550",
+		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+	},
+	{
+		"title": "Hang Time",
+		"difficulty": "Easy",
+		"duration": "25min",
+		"exercises": [
+			{ "name": "bar hang", "reps": "10sec", "sets": "1" },
+			{ "name": "run", "reps": "500m", "sets": "1" },
+			{ "name": "burpees", "reps": "10", "sets": "1" },
+			{ "name": "assisted pull-ups", "reps": "6", "sets": "1" },
+			{ "name": "high-knees", "reps": "20", "sets": "1" },
+			{ "name": "star jumps", "reps": "15", "sets": "1" }
+		],
+		"rounds": "4",
+		"calories": "250",
+		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+	},
+	{
+		"title": "Every Minute",
+		"difficulty": "Intermediate",
+		"duration": "20min",
+		"exercises": [
+			{ "name": "floor to stand", "reps": "6", "sets": "1" },
+			{ "name": "shuttle runs (10m)", "reps": "6", "sets": "1" },
+			{ "name": "push-ups", "reps": "6", "sets": "1" },
+			{ "name": "mountain climbers", "reps": "10", "sets": "1" }
+		],
+		"rounds": "Every Minute",
+		"calories": "300",
+		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+	},
+	{
+		"title": "Tuck-Push-Run",
+		"difficulty": "Hard",
+		"duration": "45min",
+		"exercises": [
+			{ "name": "tuck jumps", "reps": "5", "sets": "1" },
+			{ "name": "push-ups", "reps": "15", "sets": "1" },
+			{ "name": "tuck jumps", "reps": "10", "sets": "1" },
+			{ "name": "run", "reps": "800m", "sets": "1" },
+			{ "name": "tuck jumps", "reps": "15", "sets": "1" },
+			{ "name": "push-ups", "reps": "10", "sets": "1" },
+			{ "name": "tuck jumps", "reps": "5", "sets": "1" },
+			{ "name": "run", "reps": "800m", "sets": "1" },
+			{ "name": "tuck jumps", "reps": "10", "sets": "1" },
+			{ "name": "push-ups", "reps": "5", "sets": "1" }
+		],
+		"rounds": "5",
+		"calories": "450",
+		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+	},
+	{
+		"title": "The No Title One",
+		"difficulty": "Intermediate",
+		"duration": "Timed",
+		"exercises": [
+			{ "name": "sprints", "reps": "1000m", "sets": "1" },
+			{ "name": "burpees", "reps": "10", "sets": "1" },
+			{ "name": "sprints", "reps": "500m", "sets": "1" },
+			{ "name": "push-ups", "reps": "10", "sets": "1" },
+			{ "name": "walking lunges", "reps": "500m", "sets": "1" },
+			{ "name": "sit-ups", "reps": "20", "sets": "1" },
+			{ "name": "star jumps", "reps": "50", "sets": "1" }
+		],
+		"rounds": "4",
+		"calories": "325",
+		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+	}
+]

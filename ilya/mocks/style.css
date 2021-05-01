@@ -1,0 +1,46 @@
+button,
+.highlights-ticker {
+	opacity: 0.7;
+	border: 1px solid red;
+}
+
+.highlights-ticker {
+	overflow: hidden;
+}
+
+
+.part-1 {
+    animation: move1 20s linear infinite;
+   /* transform: translateX(0%); */
+   width: 100vw;
+	color: purple;
+}
+
+.part-2 {
+    /*  transform: translateX(150%); */
+    /*  animation: move2 20s linear 5s infinite; */
+
+}
+
+.highlights-ticker h3 {
+	margin: 10px 40px;
+    white-space: nowrap;
+}
+
+@keyframes move1 {
+	0% {
+		transform: translateX(250%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes move2 {
+	0% {
+		transform: translateX(150%);
+	}
+	100% {
+		transform: translateX(-200%);
+	}
+}
