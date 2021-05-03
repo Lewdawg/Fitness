@@ -1,0 +1,19 @@
+#userProfilePage {
+    opacity: .8;
+    background-color: white;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pooBear {
+    border: 5px solid brown;
+    border-radius: 25px;
+}
+
+.piglet {
+    border: 5px solid blue;
+    border-radius: 25px;
+}
