@@ -1,5 +1,9 @@
 import './ppRecords.css'
 
+import PersonalTotals from './personalTotals/personalTotals.jsx'
+import PersonalBest from './personalBest/personalBest.jsx'
+
+
 function PpRecords() {
 
 
@@ -8,13 +12,9 @@ function PpRecords() {
 
         <div className='ppRecords' style={{ width: '58%', height: '95%' }}>
 
-            <div className="bestThings" style={{ width: '100%', height: '70%' }}>
+            <PersonalBest />
 
-            </div>
-
-            <div className="personalTotals" style={{ width: '100%', height: '30%' }}>
-
-            </div>
+            <PersonalTotals />
 
         </div>
 

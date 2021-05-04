@@ -1,0 +1,26 @@
+.bestCards {
+    /* border: 5px solid purple; */
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bestCardLayout {
+    border: 3px solid grey;
+    border-radius: 25px;
+}
+
+.bestCardLayoutTitle {
+    text-align: center;
+    margin: 5%;
+    font-size: 1.7rem;
+}
+
+.bestCardLayoutDetails {
+    text-align: center;
+    margin: 3%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
