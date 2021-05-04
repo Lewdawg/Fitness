@@ -11,9 +11,10 @@
 .cardDesc {
     border: 3px solid gray;
     border-radius: 25px;
-    padding: 3%;
+    padding: 0 3%;
 }
 
 .cardDesText {
-    font-size: 135%;
+    /* font-size: 135%; */
+    font-size: 1.1vw;
 }

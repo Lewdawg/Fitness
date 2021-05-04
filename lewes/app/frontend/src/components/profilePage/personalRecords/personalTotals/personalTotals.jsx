@@ -8,11 +8,11 @@ function PersonalTotals() {
 
         <div className="personalTotals" style={{ width: '95%', height: '28%' }}>
 
-            <h3>Calories Burnt: 3300</h3>
+            <p>Calories Burnt: 3300</p>
             <div style={{ height: '70%' }}></div>
-            <h3>Total Workout Completed: 16</h3>
+            <p>Total Workout Completed: 16</p>
             <div style={{ height: '70%' }}></div>
-            <h3>Km's Ran: 9</h3>
+            <p>Km's Ran: 9</p>
 
         </div>
     )

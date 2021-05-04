@@ -15,17 +15,13 @@
 
 .cardTitle {
     text-align: center;
-    /* font-size: 2rem; */
-    font-size: 200%;
-    /* margin: .5rem; */
+    font-size: 1.7vw;
+    /* margin-top: 1%; */
 }
 
 .cardText {
-    /* font-size: 1.5rem; */
-    font-size: 140%;
-    /* line-height: 3rem; */
-    line-height: 200%;
-    margin: 5%;
+    font-size: 1.25vw;
+    margin: 3% 0 0 5%;
 }
 
 .userImg {

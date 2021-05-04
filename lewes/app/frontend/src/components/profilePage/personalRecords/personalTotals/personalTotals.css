@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.personalTotals p {
+    font-size: 1.4vw;
+}
+
 .personalTotals div {
     border: 1px solid gray;
 }
