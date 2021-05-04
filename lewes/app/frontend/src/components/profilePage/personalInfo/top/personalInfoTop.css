@@ -15,13 +15,16 @@
 
 .cardTitle {
     text-align: center;
-    font-size: 2rem;
-    margin: .5rem;
+    /* font-size: 2rem; */
+    font-size: 200%;
+    /* margin: .5rem; */
 }
 
 .cardText {
-    font-size: 1.5rem;
-    line-height: 3rem;
+    /* font-size: 1.5rem; */
+    font-size: 140%;
+    /* line-height: 3rem; */
+    line-height: 200%;
     margin: 5%;
 }
 
