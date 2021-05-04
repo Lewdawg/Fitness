@@ -1,5 +1,7 @@
 import './profilePage.css'
-import banana from './banana.jpg'
+
+import PersonalRecords from './personalRecords/ppRecords.jsx';
+import PersonalInfo from './personalInfo/personalInfo.jsx';
 
 import Card from 'react-bootstrap/Card'
 import ListGroup from 'react-bootstrap/ListGroup'
@@ -14,17 +16,8 @@ function ProfilePage() {
         <>
             <div id="userProfilePage" style={{ width: '95%', height: '90%' }}>
 
-                <div className='pooBear' style={{ width: '58%', height: '95%' }}>
-
-
-                </div>
-
-                <div className="piglet" style={{ width: '38%', height: '95%' }}>
-
-
-                </div>
-
-
+                <PersonalRecords />
+                <PersonalInfo />
 
             </div>
         </>

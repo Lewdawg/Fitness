@@ -1,0 +1,46 @@
+.ppInfo {
+    border: 5px solid blue;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.ppInfoImage {
+    border: 5px solid orangered;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    border: 3px solid gold;
+    border-radius: 25px;
+}
+
+.cardTitle {
+    text-align: center;
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+.cardText {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin: 5%;
+}
+
+.userImg {
+    border: 3px solid black;
+    border-radius: 25px;
+}
+
+.ppInfoDescription {
+    border: 5px solid green;
+    border-radius: 25px;
+}

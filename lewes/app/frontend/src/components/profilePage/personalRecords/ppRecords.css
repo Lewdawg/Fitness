@@ -1,0 +1,17 @@
+.ppRecords {
+    border: 5px solid brown;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.bestThings {
+    border: 5px solid purple;
+    border-radius: 25px;
+}
+
+.personalTotals {
+    border: 5px solid lime;
+    border-radius: 25px;
+}
