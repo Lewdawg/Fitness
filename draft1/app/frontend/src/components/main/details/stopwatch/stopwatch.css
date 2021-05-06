@@ -1,0 +1,13 @@
+.watchDiv {
+    border: 5px solid orange;
+    /* background-color: orange; */
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.stopWatchSplit {
+    border-bottom: 2px solid orange;
+    width: 80%;
+    margin: auto;
+}

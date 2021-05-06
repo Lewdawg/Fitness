@@ -1,0 +1,30 @@
+
+.ppInfoImage {
+    /* border: 5px solid orangered; */
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutMe {
+    border: 3px solid gray;
+    border-radius: 25px;
+}
+
+.cardTitle {
+    text-align: center;
+    font-size: 1.7vw;
+    /* margin-top: 1%; */
+}
+
+.cardText {
+    font-size: 1.25vw;
+    margin: 3% 0 0 5%;
+}
+
+.userImg {
+    border: 3px solid gray;
+    border-radius: 25px;
+}

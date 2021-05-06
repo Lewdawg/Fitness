@@ -1,0 +1,15 @@
+#userProfilePage {
+    width: 100%;
+    height: calc(100vh - 348px);
+    margin-top: 100px;
+    opacity: .8;
+    background-color: white;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+

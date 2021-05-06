@@ -1,0 +1,48 @@
+#mainBigDiv {
+    opacity: .8;
+    background-color: white;
+    border-radius: 25px;
+}
+
+#cardLayout {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   /* background-color: red; */
+}
+
+
+#theWorkout {
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    background-color: lightblue;
+    border-radius: 25px;   
+}
+
+#theTimer {
+    display: flex;
+    background-color: lightgreen;
+    border-radius: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+   padding: 1.5rem;
+}
+
+
+.section-headers {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    /* justify-content: space-around; */
+}
+
+
+.checkBoxes {
+    /* background-color: saddlebrown; */
+    display: flex;
+    justify-content: space-evenly;
+}

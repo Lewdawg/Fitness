@@ -1,0 +1,7 @@
+#workouts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 80vw;
+    margin: 0 auto;
+}

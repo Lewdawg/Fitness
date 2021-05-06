@@ -1,0 +1,23 @@
+.workout {
+	margin: 10px;
+	border: 4px solid red;
+	width: calc(100% - 20px);
+}
+
+@media only screen and (min-width: 500px) {
+	.workout {
+		width: calc(50% - 20px);
+	}
+}
+
+@media only screen and (min-width: 800px) {
+	.workout {
+		width: calc(33% - 20px);
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.workout {
+		width: calc(25% - 20px);
+	}
+}

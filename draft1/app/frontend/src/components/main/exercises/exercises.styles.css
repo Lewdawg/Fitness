@@ -1,0 +1,37 @@
+.theExerciseTab {
+    opacity: .8;
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+.theExerciseTabCollection {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 25px;
+    
+}
+
+.theExerciseTabCard {
+ 
+    margin: 10px 0;
+    border: 5px solid green;
+    border-radius: 25px;
+}
+
+
+.exerciseCardLayout {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* .exerciseDescription,
+.exerciseVid {
+    max-height: 100%;
+} */

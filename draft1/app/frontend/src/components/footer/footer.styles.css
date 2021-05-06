@@ -1,0 +1,9 @@
+#footer {
+    height: 56px;
+}
+
+#footer span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: black;
+}
