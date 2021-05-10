@@ -10,25 +10,30 @@ function Exercises() {
 
         <>
 
-            <div className="theExerciseTab" style={{ width: '100%', height: '100%' }}>
+            <div id="theExerciseTab" className="wrapper fadeInDown mt-1">
 
-                <h2>Exercise.title</h2>
+                <h1>Exercises</h1>
 
-                <div className="theExerciseTabCollection" style={{ width: '97%', height: '30%' }}>
+                <div className="theExerciseTabCollection" style={{}}>
 
-                    <ExerciseTabCard />
-                    <ExerciseTabCard />
-                    <ExerciseTabCard />
-                    <ExerciseTabCard />
-                    <ExerciseTabCard />
-                    <ExerciseTabCard />
-
-                    <ExerciseTabCard />
-                    <ExerciseTabCard />
-                    <ExerciseTabCard />
-                    {/* <ExerciseTabCard />
-                    <ExerciseTabCard />
-                    <ExerciseTabCard /> */}
+                    <div className="formContent">
+                        <ExerciseTabCard />
+                    </div>
+                    <div className="formContent">
+                        <ExerciseTabCard />
+                    </div>
+                    <div className="formContent">
+                        <ExerciseTabCard />
+                    </div>
+                    <div className="formContent">
+                        <ExerciseTabCard />
+                    </div>
+                    <div className="formContent">
+                        <ExerciseTabCard />
+                    </div>
+                    <div className="formContent">
+                        <ExerciseTabCard />
+                    </div>
 
                 </div>
 
