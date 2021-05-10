@@ -1,13 +1,27 @@
 #header {
+    position: relative;
     height: 56px;
+    background-color: rgba(256,256,256,0.6);
+
 }
 
 #header .navbar {
-    height: 100%;
+    height: 56px; /* why 100% breaks to whole page ? */
+    position: fixed;
+    top: 0;
+    color: black;
 }
 
 #header .navbar-brand {
     cursor: pointer;
+    background: url(./logos/black.png);
+}
+
+#header .navbar-brand:hover {
+    cursor: pointer;
+    content:'hello';
+   border: 2px solid red;
+    background: url(./logos/white.png);
 }
 
 #header .nav-link {
@@ -16,6 +30,6 @@
     color: black;
 }
 
-#header .nav-link:hover {
+#header .nav-link:hover, .nav-brand:hover {
     color: white;
 }
