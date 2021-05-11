@@ -1,35 +1,36 @@
 #header {
-    position: relative;
-    height: 56px;
-    background-color: rgba(256,256,256,0.6);
-
+	position: relative;
+	height: 56px;
+	background-color: rgba(256, 256, 256, 0.6);
 }
 
 #header .navbar {
-    height: 56px; /* why 100% breaks to whole page ? */
-    position: fixed;
-    top: 0;
-    color: black;
+	height: 56px; /* why 100% breaks to whole page ? */
+	position: fixed;
+	top: 0;
+	/* color: black; */
 }
 
-#header .navbar-brand {
-    cursor: pointer;
-    background: url(./logos/black.png);
+#header #logo {
+	width: 50px;
+	height: 50px;
 }
 
-#header .navbar-brand:hover {
-    cursor: pointer;
-    content:'hello';
-   border: 2px solid red;
-    background: url(./logos/white.png);
+#header a path {
+	fill: black;
+}
+
+#header a:hover path {
+	fill: white;
 }
 
 #header .nav-link {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: black;
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: black;
 }
 
-#header .nav-link:hover, .nav-brand:hover {
-    color: white;
+#header .nav-link:hover,
+.nav-brand:hover {
+	color: white;
 }
