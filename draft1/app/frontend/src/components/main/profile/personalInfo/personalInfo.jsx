@@ -9,7 +9,7 @@ function PersonalInfo() {
 
     return (
 
-        <div className="ppInfo" style={{ width: '38%', height: '95%' }}>
+        <div className="ppInfo">
 
             <PersonalInfoTop />
 

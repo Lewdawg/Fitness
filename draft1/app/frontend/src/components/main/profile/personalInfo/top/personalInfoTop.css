@@ -1,5 +1,7 @@
 
 .ppInfoImage {
+    width: 95%; 
+    height: 58%;
     /* border: 5px solid orangered; */
     border-radius: 25px;
 
@@ -9,6 +11,8 @@
 }
 
 .aboutMe {
+    width: 48%; 
+    height: 85%;
     border: 3px solid gray;
     border-radius: 25px;
 }
@@ -16,15 +20,16 @@
 .cardTitle {
     text-align: center;
     font-size: 1.7vw;
-    /* margin-top: 1%; */
 }
 
 .cardText {
-    font-size: 1.25vw;
+    font-size: 1.3rem;
     margin: 3% 0 0 5%;
 }
 
 .userImg {
+    width: 48%;
+    height: 85%;
     border: 3px solid gray;
     border-radius: 25px;
 }
