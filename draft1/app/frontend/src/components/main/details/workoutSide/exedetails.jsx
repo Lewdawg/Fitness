@@ -8,7 +8,7 @@ function exedetails() {
     return (
 
         <>
-            <div className="section" style={{ width: '98%', height: '10%' }}>
+            <div className="section">
 
                 <div>Squats</div>
                 <input type="number" style={{ width: '20%' }} />

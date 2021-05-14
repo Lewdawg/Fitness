@@ -50,24 +50,24 @@ function Stopwatch() {
 
   return (
 
-    <div className='watchDiv' style={{ width: '45%', height: '88%' }}>
+    <div className='watchDiv'>
 
       <div>
 
-        <label style={{ fontSize: '4rem', display: 'block' }}>{timer} ms </label>
+        <label style={{ fontSize: '3rem', display: 'block' }}>{timer} ms </label>
 
-        <Button variant="primary" className="m-4 p-3" size='lg' onClick={handleRunClick} >{running ? 'Stop' : 'Start'}</Button>
+        <Button variant="primary" className="timeButt" size='lg' onClick={handleRunClick} >{running ? 'Stop' : 'Start'}</Button>
 
-        <Button variant="light" className="m-4 p-3" size='lg' onClick={handleClearClick} >Clear</Button>
+        <Button variant="light" className="timeButt" size='lg' onClick={handleClearClick} >Clear</Button>
       </div>
 
       <div>
-        <Button variant="danger" size="lg" block className="m-2 width-50">Finish Workout</Button>
+        <Button variant="danger" className="timeButt" size='lg'>Finish Workout</Button>
       </div>
 
       <div className="stopWatchSplit"></div>
 
-      <div>
+      <div className="record">
         <h1>Best Time</h1>
         <input type="number" disabled />
       </div>

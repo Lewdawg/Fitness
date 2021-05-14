@@ -13,18 +13,18 @@ function Details() {
 
     return (
 
-        <div id="mainBigDiv">
+        <div id="mainBigDiv" className="fadeInDown">
 
             <h1>Card Title</h1>
 
-            <section id="cardLayout" style={{ width: '100%', height: '70%' }}>
+            <section id="cardLayout">
 
                 <div id="theWorkout" >
-                    <div className="section section-headers" style={{ width: '98%', height: '10%' }}>
+                    <div className="section section-headers">
                         <div>Exercise</div>
                         <div>Amount</div>
                         <div>Total</div>
-                        <div>-</div>
+                        <div>Add</div>
                     </div>
 
                     <ExeDetails />
@@ -41,7 +41,7 @@ function Details() {
                 </div>
 
 
-                <div id="theTimer" style={{ width: '45%', height: '100%' }}>
+                <div id="theTimer">
                     <Counter />
                     <StopWatch />
                 </div>
