@@ -1,8 +1,9 @@
 [
 	{
 		"title": "Run Time",
-		"difficulty": "Easy",
+		"difficulty": "easy",
 		"duration": "Timed",
+		"location": "outdoor",
 		"exercises": [
 			{ "name": "run", "reps": "1000m", "sets": "1" },
 			{ "name": "squat pulses", "reps": "50", "sets": "1" },
@@ -10,26 +11,28 @@
 		],
 		"rounds": "5",
 		"calories": "250",
-		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+		"img": "https://images.unsplash.com/photo-1608330270081-dae407dbbc50?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 	},
 	{
 		"title": "The Beast",
-		"difficulty": "Hard",
-		"duration": "60min",
+		"difficulty": "hard",
+		"duration": "60 min",
+		"location": "outdoor",
 		"exercises": [
 			{ "name": "run", "reps": "800m", "sets": "1" },
 			{ "name": "double-under skips", "reps": "80", "sets": "1" },
 			{ "name": "squats", "reps": "60", "sets": "1" },
 			{ "name": "muscle ups or pull ups", "reps": "10", "sets": "1" }
 		],
-		"rounds": "every 10min",
+		"rounds": "every 10 min",
 		"calories": "550",
 		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
 	},
 	{
 		"title": "Hang Time",
-		"difficulty": "Easy",
-		"duration": "25min",
+		"difficulty": "easy",
+		"duration": "25 min",
+		"location": "outdoor",
 		"exercises": [
 			{ "name": "bar hang", "reps": "10sec", "sets": "1" },
 			{ "name": "run", "reps": "500m", "sets": "1" },
@@ -40,12 +43,13 @@
 		],
 		"rounds": "4",
 		"calories": "250",
-		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+		"img": "https://images.unsplash.com/photo-1528304270437 min-714a2d6fbb6b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 	},
 	{
 		"title": "Every Minute",
-		"difficulty": "Intermediate",
-		"duration": "20min",
+		"difficulty": "medium",
+		"duration": "20 min",
+		"location": "outdoor",
 		"exercises": [
 			{ "name": "floor to stand", "reps": "6", "sets": "1" },
 			{ "name": "shuttle runs (10m)", "reps": "6", "sets": "1" },
@@ -54,12 +58,13 @@
 		],
 		"rounds": "Every Minute",
 		"calories": "300",
-		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+		"img": "https://images.unsplash.com/photo-1615872329955-c28d0bf453fd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 	},
 	{
 		"title": "Tuck-Push-Run",
-		"difficulty": "Hard",
-		"duration": "45min",
+		"difficulty": "hard",
+		"duration": "45 min",
+		"location": "outdoor",
 		"exercises": [
 			{ "name": "tuck jumps", "reps": "5", "sets": "1" },
 			{ "name": "push-ups", "reps": "15", "sets": "1" },
@@ -74,12 +79,13 @@
 		],
 		"rounds": "5",
 		"calories": "450",
-		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+		"img": "https://images.unsplash.com/photo-1614928228253-dc09cbc3b11c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80"
 	},
 	{
 		"title": "The No Title One",
-		"difficulty": "Intermediate",
+		"difficulty": "medium",
 		"duration": "Timed",
+		"location": "outdoor",
 		"exercises": [
 			{ "name": "sprints", "reps": "1000m", "sets": "1" },
 			{ "name": "burpees", "reps": "10", "sets": "1" },
@@ -92,5 +98,438 @@
 		"rounds": "4",
 		"calories": "325",
 		"img": "https://images.unsplash.com/photo-1535743686920-55e4145369b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80"
+	},
+	{
+		"title": "Mc'Sweaty",
+		"difficulty": "hard",
+		"duration": "35 min",
+		"location": "outdoor",
+		"exercises": [
+			{ "name": "situps", "reps": "20", "sets": "1" },
+			{ "name": "shoulder-press", "reps": "20", "sets": "1" },
+			{ "name": "push-ups", "reps": "20", "sets": "1" },
+			{ "name": "squats", "reps": "20", "sets": "1" },
+			{ "name": "burpees", "reps": "10", "sets": "1" }
+		],
+		"rounds": "8",
+		"calories": "450",
+		"img": "https://images.unsplash.com/photo-1528304270437 min-714a2d6fbb6b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Bodyweight Chipper",
+		"difficulty": "medium",
+		"duration": "35 min",
+		"location": "outdoor",
+		"exercises": [
+			{ "name": "squats", "reps": "150", "sets": "1" },
+			{ "name": "situps", "reps": "100", "sets": "1" },
+			{ "name": "hand release push-ups", "reps": "75", "sets": "1" },
+			{ "name": "walking lunges", "reps": "50", "sets": "1" },
+			{ "name": "burpee tuck jumps", "reps": "25", "sets": "1" }
+		],
+		"rounds": "For Time",
+		"calories": "400",
+		"img": "https://images.unsplash.com/photo-1608330270081-dae407dbbc50?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Wheelchair Maker",
+		"difficulty": "hard",
+		"duration": "30 min",
+		"location": "outdoor",
+		"exercises": [
+			{ "name": "squats", "reps": "25", "sets": "1" },
+			{ "name": "squat-hold", "reps": "15 sec", "sets": "1" },
+			{ "name": "mountain-climbers", "reps": "50", "sets": "1" },
+			{ "name": "static lunge pluses", "reps": "15 each leg", "sets": "1" },
+			{ "name": "tuck-jumps", "reps": "10", "sets": "1" }
+		],
+		"rounds": "4",
+		"calories": "400",
+		"img": "https://images.unsplash.com/photo-1593234270607-66cc705a0aaa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Blow Out",
+		"difficulty": "hard",
+		"duration": "35 min",
+		"location": "outdoor",
+		"exercises": [
+			{ "name": "air squats", "reps": "20", "sets": "1" },
+			{ "name": "chair dips", "reps": "20", "sets": "1" },
+			{ "name": "push ups", "reps": "20", "sets": "1" },
+			{ "name": "lunge pulses", "reps": "20", "sets": "1" },
+			{ "name": "sit ups", "reps": "20", "sets": "1" }
+		],
+		"rounds": "10 (each round -2 reps)",
+		"calories": "500",
+		"img": "https://images.unsplash.com/photo-1614928228253-dc09cbc3b11c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80"
+	},
+	{
+		"title": "Ups-A-Daisy",
+		"difficulty": "medium",
+		"duration": "25 min",
+		"location": "outdoor",
+		"exercises": [
+			{ "name": "shoulder press", "reps": "20", "sets": "1" },
+			{ "name": "side raises", "reps": "20", "sets": "1" },
+			{ "name": "bent-over reverse fly", "reps": "20", "sets": "1" },
+			{ "name": "push-up", "reps": "20", "sets": "1" },
+			{ "name": "bicep-curl", "reps": "20", "sets": "1" }
+		],
+		"rounds": "5",
+		"calories": "350",
+		"img": "https://images.unsplash.com/photo-1615872329955-c28d0bf453fd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Slow and Steady",
+		"difficulty": "easy",
+		"duration": "25 min",
+		"location": "outdoor",
+		"exercises": [
+			{ "name": "floor to stand", "reps": "5", "sets": "1" },
+			{ "name": "squats", "reps": "10", "sets": "1" },
+			{ "name": "hand release push-ups", "reps": "15", "sets": "1" },
+			{ "name": "lunges", "reps": "20", "sets": "1" },
+			{ "name": "sit-ups", "reps": "25", "sets": "1" }
+		],
+		"rounds": "4",
+		"calories": "250",
+		"img": "https://images.unsplash.com/photo-1534367990512-edbdca781b00?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "LJ's",
+		"difficulty": "medium",
+		"duration": "16 min",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "squats", "reps": "5", "sets": "1" },
+			{ "name": "burpees", "reps": "5", "sets": "1" },
+			{ "name": "push-ups", "reps": "5", "sets": "1" },
+			{ "name": "V-sit ups", "reps": "5", "sets": "1" },
+			{ "name": "pendulum", "reps": "6", "sets": "1" }
+		],
+		"rounds": "Maximum",
+		"calories": "325",
+		"img": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODZ8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Quick & Quite",
+		"difficulty": "medium",
+		"duration": "For Time",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "burpees", "reps": "100", "sets": "1" },
+			{ "name": "hand release push-ups", "reps": "10", "sets": "1" },
+			{ "name": "V- sit ups", "reps": "10", "sets": "1" }
+		],
+		"rounds": "Every 20 Burpees: a set each of the other 2 exercises.",
+		"calories": "275",
+		"img": "https://images.unsplash.com/photo-1518458717367-249ba15389d2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Tough Jerky",
+		"difficulty": "hard",
+		"duration": "For Time",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "squat jumps", "reps": "40", "sets": "1" },
+			{ "name": "crunches", "reps": "40", "sets": "1" },
+			{ "name": "burpees", "reps": "40", "sets": "1" },
+			{ "name": "push-ups", "reps": "40", "sets": "1" }
+		],
+		"rounds": "4 (every round -10reps)",
+		"calories": "300",
+		"img": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Burpee Mania",
+		"difficulty": "hard",
+		"duration": "200 Reps",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "burpees", "reps": "200", "sets": "1" },
+			{ "name": "sit-ups", "reps": "5", "sets": "1" },
+			{ "name": "push-ups", "reps": "10", "sets": "1" },
+			{ "name": "squats", "reps": "15", "sets": "1" }
+		],
+		"rounds": "Every 3min a round fo the other exercises",
+		"calories": "37 min5",
+		"img": "https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "LJ's",
+		"difficulty": "medium",
+		"duration": "16 min",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "squats", "reps": "5", "sets": "1" },
+			{ "name": "burpees", "reps": "5", "sets": "1" },
+			{ "name": "push-ups", "reps": "5", "sets": "1" },
+			{ "name": "V-sit ups", "reps": "5", "sets": "1" },
+			{ "name": "pendulum", "reps": "6", "sets": "1" }
+		],
+		"rounds": "Maximum",
+		"calories": "325",
+		"img": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODZ8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Quick & Quite",
+		"difficulty": "medium",
+		"duration": "For Time",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "burpees", "reps": "100", "sets": "1" },
+			{ "name": "hand release push-ups", "reps": "10", "sets": "1" },
+			{ "name": "V- sit ups", "reps": "10", "sets": "1" }
+		],
+		"rounds": "Every 20 Burpees: a set each of the other 2 exercises.",
+		"calories": "275",
+		"img": "https://images.unsplash.com/photo-1518458717367-249ba15389d2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Tough Jerky",
+		"difficulty": "hard",
+		"duration": "For Time",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "squat jumps", "reps": "40", "sets": "1" },
+			{ "name": "crunches", "reps": "40", "sets": "1" },
+			{ "name": "burpees", "reps": "40", "sets": "1" },
+			{ "name": "push-ups", "reps": "40", "sets": "1" }
+		],
+		"rounds": "4 (every round -10reps)",
+		"calories": "300",
+		"img": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Burpee Mania",
+		"difficulty": "hard",
+		"duration": "200 Reps",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "burpees", "reps": "200", "sets": "1" },
+			{ "name": "sit-ups", "reps": "5", "sets": "1" },
+			{ "name": "push-ups", "reps": "10", "sets": "1" },
+			{ "name": "squats", "reps": "15", "sets": "1" }
+		],
+		"rounds": "Every 3min a round fo the other exercises",
+		"calories": "37 min5",
+		"img": "https://images.unsplash.com/photo-1550259979-ed79b48d2a30?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzR8fGluZG9vciUyMHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Machine Burner",
+		"difficulty": "easy",
+		"duration": "37 min",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "burpees", "reps": "5", "sets": "1" },
+			{ "name": "sit-ups", "reps": "15", "sets": "1" },
+			{ "name": "push-ups", "reps": "10", "sets": "1" },
+			{ "name": "squats", "reps": "20", "sets": "1" }
+		],
+		"rounds": "10 Rounds",
+		"calories": "567",
+		"img": "https://images.unsplash.com/photo-1558017487-06bf9f82613a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29ya291dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Machine Burner",
+		"difficulty": "easy",
+		"duration": "37 min",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "squats", "reps": "60", "sets": "1" },
+			{ "name": "lunges", "reps": "50", "sets": "1" },
+			{ "name": "power squats", "reps": "40", "sets": "1" },
+			{ "name": "burpees", "reps": "30", "sets": "1" },
+			{ "name": "pushups", "reps": "20", "sets": "1" },
+			{ "name": "situps", "reps": "10", "sets": "1" }
+		],
+		"rounds": "3 Rounds For Time",
+		"calories": "37 min5",
+		"img": "https://images.unsplash.com/photo-1558017487-06bf9f82613a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d29ya291dHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Hero Wod",
+		"difficulty": "easy",
+		"duration": "37 min",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "hspu", "reps": "5", "sets": "1" },
+			{ "name": "devils press", "reps": "7", "sets": "1" },
+			{ "name": "power squats", "reps": "40", "sets": "1" },
+			{ "name": "weighted squats", "reps": "19", "sets": "1" },
+			{ "name": "double unders", "reps": "48", "sets": "1" }
+		],
+		"rounds": "12 Rounds, one for each hour",
+		"calories": "567",
+		"img": "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "For Time",
+		"difficulty": "hard",
+		"duration": "200 Reps",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "pushups", "reps": "150", "sets": "1" },
+			{ "name": "lunges", "reps": "20", "sets": "1" },
+			{ "name": "sit ups", "reps": "15", "sets": "1" }
+		],
+		"rounds": "every time",
+		"calories": "567",
+		"img": "https://images.unsplash.com/photo-159125837 min0814-01609b341790?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdvcmtvdXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Machine Burner",
+		"difficulty": "medium",
+		"duration": "37 min",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "emon", "reps": "15", "sets": "1" },
+			{ "name": "burpees", "reps": "6", "sets": "1" },
+			{ "name": "push ups", "reps": "6", "sets": "1" },
+			{ "name": "squat", "reps": "6", "sets": "1" },
+			{ "name": "jumps", "reps": "", "sets": "1" }
+		],
+		"rounds": "",
+		"calories": "567",
+		"img": "https://images.unsplash.com/photo-1470468969717-61d5d54fd036?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Machine Burner",
+		"difficulty": "easy",
+		"duration": "15 minutes",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "floor to stands", "reps": "10", "sets": "1" },
+			{ "name": "hand release press ups", "reps": "15", "sets": "1" },
+			{ "name": "prisoner squats", "reps": "20", "sets": "1" },
+			{ "name": "sit ups", "reps": "25", "sets": "1" },
+			{ "name": "high to low plank", "reps": "30 sec", "sets": "1" }
+		],
+		"rounds": "3",
+		"calories": "567",
+		"img": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Machine Burner",
+		"difficulty": "hard",
+		"duration": "37 min",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "revers flyes", "reps": "30", "sets": "1" },
+			{ "name": "shoulder presses", "reps": "30", "sets": "1" },
+			{ "name": "lateral raises", "reps": "30", "sets": "1" },
+			{ "name": "hammer curls", "reps": "30", "sets": "1" },
+			{ "name": "upright rowes", "reps": "30", "sets": "1" },
+			{ "name": "push presses", "reps": "30", "sets": "1" },
+			{ "name": "bicep curls", "reps": "30", "sets": "1" }
+		],
+		"rounds": "3",
+		"calories": "456",
+		"img": "https://images.unsplash.com/photo-159125837 min0814-01609b341790?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdvcmtvdXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Interesting One",
+		"difficulty": "medium",
+		"duration": "60",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "floor to stands", "reps": "5", "sets": "1" },
+			{ "name": "squats", "reps": "10", "sets": "1" },
+			{ "name": "hand release press ups", "reps": "15", "sets": "1" },
+			{ "name": "front/rear lunges", "reps": "20", "sets": "1" }
+		],
+		"rounds": "5",
+		"calories": "234",
+		"img": "https://images.unsplash.com/photo-159125837 min0814-01609b341790?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHdvcmtvdXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "AMRAP",
+		"difficulty": "easy",
+		"duration": "12  min",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "squats", "reps": "50", "sets": "1" },
+			{ "name": "alternating lunges", "reps": "40", "sets": "1" },
+			{ "name": "sec wall sit", "reps": "30", "sets": "1" },
+			{ "name": "press ups", "reps": "20", "sets": "1" },
+			{ "name": "floor to stands", "reps": "10", "sets": "1" }
+		],
+		"rounds": "",
+		"calories": "567",
+		"img": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "AMRAP",
+		"difficulty": "medium",
+		"duration": "15  min",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "squats", "reps": "50", "sets": "1" },
+			{ "name": "alternating lunges", "reps": "40", "sets": "1" },
+			{ "name": "sec wall sit", "reps": "30", "sets": "1" },
+			{ "name": "press ups", "reps": "20", "sets": "1" },
+			{ "name": "floor to stands", "reps": "10", "sets": "1" }
+		],
+		"rounds": "",
+		"calories": "567",
+		"img": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "AMRAP",
+		"difficulty": "hard",
+		"duration": "120  min",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "squats", "reps": "50", "sets": "1" },
+			{ "name": "alternating lunges", "reps": "40", "sets": "1" },
+			{ "name": "sec wall sit", "reps": "30", "sets": "1" },
+			{ "name": "press ups", "reps": "20", "sets": "1" },
+			{ "name": "floor to stands", "reps": "10", "sets": "1" }
+		],
+		"rounds": "",
+		"calories": "567",
+		"img": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Reg Cheering ",
+		"difficulty": "medium",
+		"duration": "no rest",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "floor to stand", "reps": "10", "sets": "1" },
+			{ "name": "frog sit ups", "reps": "10", "sets": "1" },
+			{ "name": "alternating lunges", "reps": "20", "sets": "1" }
+		],
+		"rounds": "7",
+		"calories": "567",
+		"img": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Reg Cheering ",
+		"difficulty": "hard",
+		"duration": "no rest",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "floor to stand", "reps": "10", "sets": "1" },
+			{ "name": "frog sit ups", "reps": "10", "sets": "1" },
+			{ "name": "alternating lunges", "reps": "20", "sets": "1" }
+		],
+		"rounds": "10",
+		"calories": "345",
+		"img": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Reg Cheering ",
+		"difficulty": "easy",
+		"duration": "no rest",
+		"location": "indoor",
+		"exercises": [
+			{ "name": "floor to stand", "reps": "10", "sets": "1" },
+			{ "name": "frog sit ups", "reps": "10", "sets": "1" },
+			{ "name": "alternating lunges", "reps": "20", "sets": "1" }
+		],
+		"rounds": "5",
+		"calories": "567",
+		"img": "https://images.unsplash.com/photo-1518459031867-a89b944bffe4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kb29yJTIwd29ya291dHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 	}
 ]

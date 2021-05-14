@@ -1,36 +1,10 @@
 #header {
-	position: relative;
-	height: 56px;
-	background-color: rgba(256, 256, 256, 0.6);
-}
-
-#header .navbar {
-	height: 56px; /* why 100% breaks to whole page ? */
-	position: fixed;
+	height: var(--headerHeight);
+	width: 100%;
+	background-color: white;
+	position: sticky;
 	top: 0;
-	/* color: black; */
-}
-
-#header #logo {
-	width: 50px;
-	height: 50px;
-}
-
-#header a path {
-	fill: black;
-}
-
-#header a:hover path {
-	fill: white;
-}
-
-#header .nav-link {
-	font-size: 1.25rem;
-	font-weight: bold;
-	color: black;
-}
-
-#header .nav-link:hover,
-.nav-brand:hover {
-	color: white;
+	z-index: 1;
+	border-bottom: 5px solid #56baed;
+	box-sizing: content-box;
 }

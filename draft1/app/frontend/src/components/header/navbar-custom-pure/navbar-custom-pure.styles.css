@@ -1,0 +1,73 @@
+#navbar-custom {
+	display: flex;
+	align-items: center;
+	height: 56px;
+	width: 100%;
+	background-color: white;
+	position: fixed;
+	top: 0;
+    padding: 0;
+}
+
+#navbar-custom .navbar {
+	height: 56px;
+}
+
+#navbar-custom > a {
+	padding: 0;
+}
+
+#navbar-custom .navbar-brand {
+	height: 56px; /* why 100% breaks to whole page ? */
+	display: flex;
+    margin-left: 20px;
+	align-items: center;
+}
+
+#navbar-custom #logo {
+	width: 50px;
+	height: 50px;
+}
+
+#navbar-custom a path {
+	fill: black;
+}
+
+#navbar-custom a:hover path {
+	fill: #56baed;
+}
+
+#navbar-custom .nav-link {
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: black;
+}
+
+#navbar-custom .nav-link:hover,
+#navbar-custom .nav-link.active {
+	color: #56baed;
+}
+
+#navbar-custom .navbar-toggler {
+	order: 1;
+	border: 1px solid black;
+    opacity: 1;
+    margin-right: 20px;
+}
+
+#navbar-custom .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='black' stroke-linecap='round' stroke-miterlimit='20' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+/* responsive */
+
+@media only screen and (max-width: 991px){
+    #navbar-custom #responsive-navbar-nav {
+        background-color: white;
+    }
+
+    #navbar-custom #responsive-navbar-nav .nav-link{
+        padding-left: 20px;
+    }
+}
+

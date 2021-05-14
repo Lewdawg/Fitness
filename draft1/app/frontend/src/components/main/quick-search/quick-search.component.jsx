@@ -1,35 +1,16 @@
 import './quick-search.styles.css';
 
 import { useEffect, useRef } from 'react';
+import { NavLink } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Carousel from 'react-bootstrap/Carousel';
 
-function QuickSearch({
-	display,
-	setDisplay,
-	quickSearchFilter,
-	setQuickSearchFilter,
-}) {
-	const filters = [
+function QuickSearch({ quickSearchFilter, setQuickSearchFilter }) {
+	/* 	const filters = [
 		{ name: 'location', options: ['indoors', 'outdoors'] },
 		{ name: 'duration', options: ['15', '30', '45'] },
 		{ name: 'difficulty', options: ['easy', 'medium', 'hard'] },
-	];
-
-	let indicators = [];
-	console.log(indicators);
-
-	useEffect(() => {
-		indicators = [...document.querySelectorAll(
-			'#quick-search .carousel-indicators li'
-		)];
-		for (let i = 0; i < filters.length; i++) {
-			indicators[i].textContent = filters[i].name;
-		}
-	});
-	const firstCarouselItem = useRef(),
-		secondCarouselItem = useRef(),
-		thirdCarouselItem = useRef();
+	]; */
 
 	return (
 		<Carousel
@@ -37,121 +18,120 @@ function QuickSearch({
 			wrap={false}
 			/* slide={false} */
 			id="quick-search"
+			className="fadeInDown"
 		>
-			<Carousel.Item ref={firstCarouselItem}>
-				<div className="wrapper d-flex justify-content-center align-items-center">
-					<Button
-						onClick={(e) => {
-							setQuickSearchFilter({
-								...quickSearchFilter,
-								location:
-									quickSearchFilter.location === 'indoor' ? '' : 'indoor',
-							});
-							firstCarouselItem.current.classList.remove(
-								'active'
-							);
-							firstCarouselItem.current.classList.add(
-								'carousel-item-left'
-							);
-							secondCarouselItem.current.classList.add(
-								'active'
-							);
-						}}
-						className={
-							quickSearchFilter.location === 'indoor'
-								? 'fs-4 p-5 m-5 active'
-								: 'fs-4 p-5 m-5'
-						}
-					>
-						Indoor
-					</Button>
-					<Button
-						onClick={() =>
-							setQuickSearchFilter({
-								...quickSearchFilter,
-								location:
-									quickSearchFilter.location === 'outdoor' ? '' : 'outdoor',
-							})
-						}
-						className={
-							quickSearchFilter.location === 'outdoor'
-								? 'fs-4 p-5 m-5 active'
-								: 'fs-4 p-5 m-5'
-						}
-					>
-						Outdoor
-					</Button>
-				</div>
+			<Carousel.Item>
+				<Button
+					onClick={() => {
+						setQuickSearchFilter({
+							...quickSearchFilter,
+							location: quickSearchFilter.location === 'indoor' ? '' : 'indoor',
+						});
+						document.querySelector('.carousel-control-next').click();
+					}}
+					className={quickSearchFilter.location === 'indoor' ? 'active' : ''}
+				>
+					Indoor
+				</Button>
+				<Button
+					onClick={() => {
+						setQuickSearchFilter({
+							...quickSearchFilter,
+							location:
+								quickSearchFilter.location === 'outdoor' ? '' : 'outdoor',
+						});
+						document.querySelector('.carousel-control-next').click();
+					}}
+					className={quickSearchFilter.location === 'outdoor' ? 'active' : ''}
+				>
+					Outdoor
+				</Button>
 			</Carousel.Item>
 
-			<Carousel.Item ref={secondCarouselItem}>
-				<div className="wrapper d-flex justify-content-center align-items-center">
-					<Button
-						onClick={() =>
-							setQuickSearchFilter({ ...quickSearchFilter, duration: '15min' })
-						}
-						className="fs-4 p-5 m-5"
-					>
-						15 Minutes
-					</Button>
-					<Button
-						onClick={() =>
-							setQuickSearchFilter({ ...quickSearchFilter, duration: '30min' })
-						}
-						className="fs-4 p-5 m-5"
-					>
-						30 Minutes
-					</Button>
-					<Button
-						onClick={() =>
-							setQuickSearchFilter({ ...quickSearchFilter, duration: '45min' })
-						}
-						className="fs-4 p-5 m-5"
-					>
-						45 Minutes
-					</Button>
-				</div>
+			<Carousel.Item>
+				<Button
+					onClick={() => {
+						setQuickSearchFilter({
+							...quickSearchFilter,
+							duration: quickSearchFilter.duration === '15 min' ? '' : '15 min',
+						});
+						document.querySelector('.carousel-control-next').click();
+					}}
+					className={quickSearchFilter.duration === '15 min' ? 'active' : ''}
+				>
+					15 Minutes
+				</Button>
+				<Button
+					onClick={() => {
+						setQuickSearchFilter({
+							...quickSearchFilter,
+							duration: quickSearchFilter.duration === '30 min' ? '' : '30 min',
+						});
+						document.querySelector('.carousel-control-next').click();
+					}}
+					className={quickSearchFilter.duration === '30 min' ? 'active' : ''}
+				>
+					30 Minutes
+				</Button>
+				<Button
+					onClick={() => {
+						setQuickSearchFilter({
+							...quickSearchFilter,
+							duration: quickSearchFilter.duration === '45 min' ? '' : '45 min',
+						});
+						document.querySelector('.carousel-control-next').click();
+					}}
+					className={quickSearchFilter.duration === '45 min' ? 'active' : ''}
+				>
+					45 Minutes
+				</Button>
 			</Carousel.Item>
 
-			<Carousel.Item ref={thirdCarouselItem}>
-				<div className="wrapper d-flex justify-content-center align-items-center">
-					<Button
+			<Carousel.Item>
+				<Button
+					onClick={() =>
+						setQuickSearchFilter({
+							...quickSearchFilter,
+							difficulty: quickSearchFilter.difficulty === 'easy' ? '' : 'easy',
+						})
+					}
+					className={quickSearchFilter.difficulty === 'easy' ? 'active' : ''}
+				>
+					Easy
+				</Button>
+				<Button
+					onClick={() =>
+						setQuickSearchFilter({
+							...quickSearchFilter,
+							difficulty:
+								quickSearchFilter.difficulty === 'medium' ? '' : 'medium',
+						})
+					}
+					className={quickSearchFilter.difficulty === 'medium' ? 'active' : ''}
+				>
+					Medium
+				</Button>
+				<Button
+					onClick={() =>
+						setQuickSearchFilter({
+							...quickSearchFilter,
+							difficulty: quickSearchFilter.difficulty === 'hard' ? '' : 'hard',
+						})
+					}
+					className={quickSearchFilter.difficulty === 'hard' ? 'active' : ''}
+				>
+					Hard
+				</Button>
+				<Button id="search-btn">
+					<NavLink
+						to="/workouts"
 						onClick={() =>
-							setQuickSearchFilter({ ...quickSearchFilter, difficulty: 'easy' })
+							setQuickSearchFilter({ ...quickSearchFilter, active: true })
 						}
-						className="fs-4 p-5 m-5"
-					>
-						Easy
-					</Button>
-					<Button
-						onClick={() =>
-							setQuickSearchFilter({
-								...quickSearchFilter,
-								difficulty: 'medium',
-							})
-						}
-						className="fs-4 p-5 m-5"
-					>
-						Medium
-					</Button>
-					<Button
-						onClick={() =>
-							setQuickSearchFilter({ ...quickSearchFilter, difficulty: 'hard' })
-						}
-						className="fs-4 p-5 m-5"
-					>
-						Hard
-					</Button>
-					<Button
-						onClick={() =>
-							setDisplay({ ...display, quickSearch: false, cardList: true })
-						}
-						id="search-btn"
-						className="fs-4 p-5 m-5"
 					>
 						Show Workouts
-					</Button>
-				</div>
+					</NavLink>
+				</Button>
 			</Carousel.Item>
 		</Carousel>
 	);

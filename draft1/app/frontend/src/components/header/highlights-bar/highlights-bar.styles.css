@@ -2,8 +2,8 @@
 	position: fixed;
 	top: 56px;
 	z-index: 100000;
-	color: var(--bs-white);
-	background-color: var(--bs-dark);
+	color: white;
+	background-color: black;
 	min-width: 100%;
 	min-height: 38px;
 }

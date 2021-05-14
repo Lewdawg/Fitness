@@ -28,7 +28,7 @@ function App() {
 	return (
 
 			<Router>
-				<div className="App">
+				<div id="App">
 					<Header {...{ placeholder, setPlaceholder, display, setDisplay }} />
 					<Main
 						{...{

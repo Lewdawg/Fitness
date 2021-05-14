@@ -1,12 +1,12 @@
 const {
     getWorkouts
-} = require('../controllers/workouts.controllers.js');
+} = require('../controllers/workouts.controller.js');
 
 const router = require('express').Router();
 
 module.exports = () => {
 
-    router.get('/api/workouts', getWorkouts);
+    router.get('/workouts', getWorkouts);
 
     return router;
 }

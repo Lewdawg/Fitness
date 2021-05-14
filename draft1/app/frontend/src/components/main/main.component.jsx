@@ -1,7 +1,8 @@
 import './main.styles.css';
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
-import HighlightsBar from './highlights-bar/highlights-bar.component.jsx';
+/* import HighlightsBar from './highlights-bar/highlights-bar.component.jsx';
+import HighlightsTicker from './highlights-ticker/highlights-ticker.component.jsx'; */
 import SelectButtons from './select-buttons/select-buttons.component.jsx';
 import QuickSearch from './quick-search/quick-search.component.jsx';
 import Workouts from './workouts/workouts.component.jsx';
@@ -23,8 +24,8 @@ function Main({
 	setQuickSearchFilter,
 }) {
 	return (
-		<main id="main" className="position-relative">
-			<HighlightsBar />
+		<main id="main">
+
 			<Switch>
 				<Route exact path="/">
 					<SelectButtons
@@ -63,17 +64,7 @@ function Main({
 						}}
 					/>
 				</Route>
-				{/* {display.cardList && (
-							<CardList
-								{...{
-									workouts,
-									setWorkouts,
-									display,
-									setDisplay,
-									quickSearchFilter,
-								}}
-							/>
-						)} */}
+
 				<Route path="/exercises">
 					<Exercises />
 				</Route>
@@ -81,19 +72,24 @@ function Main({
 				<Route path="/login">
 					<Login {...{placeholder, setPlaceholder}}/>
 				</Route>
+
 				<Route path="/register">
 					<Register />
 				</Route>
 				{/* {placeholder.loggedIn && <Redirect to='/' />} */}
+
 				<Route path="/profile">
 					<Profile />
 				</Route>
+
 				<Route path="/workouts/details">
 					<Details />
 				</Route>
+
 				<Route path="/contact">
 					<Contact />
 				</Route>
+
 			</Switch>
 		</main>
 	);

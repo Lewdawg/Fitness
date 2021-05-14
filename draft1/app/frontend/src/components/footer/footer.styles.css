@@ -1,9 +1,20 @@
 #footer {
-    height: 56px;
+	height: 56px;
+    width: 100%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+	color: black;
+    overflow: auto;
+	border-top: 5px solid #56baed;
+	box-sizing: content-box;
 }
 
-#footer span {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: black;
+#footer p {
+	font-size: 1.25rem;
+	font-weight: bold;
+    margin: 0;
 }

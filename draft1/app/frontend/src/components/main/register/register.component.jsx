@@ -1,4 +1,4 @@
-import './login-register.styles.css';
+import '../login/login-register.styles.css';
 import { useState, useRef, useEffect } from "react";
 import { NavLink } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
@@ -57,12 +57,11 @@ function Register (props) {
         <div id='register' className="wrapper fadeInDown mt-1">
             <div id="formContent">
 
-                <h1 className='mt-4'>Register</h1>
+                <h1>Register</h1>
                 {props.loggedIn ? <p>Logged In</p> : <p>Not Registered</p>}
 
                 <form>
-                    <input type="text" id="username" className="fadeIn first mt-2" name="username" required placeholder="Username" value={state.username}
-                       onChange={handleChange}></input>
+
                     <input type="text" id="email" className="fadeIn first mt-2" name="email" required placeholder="E-mail" value={state.email}
                        onChange={handleChange}></input>
                     <input type="password" id="password" className="fadeIn second" name="login" placeholder="Password"  required value={state.password}

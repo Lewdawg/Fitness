@@ -1,0 +1,14 @@
+.exercise {
+    width: 30%;
+    border: 5px solid #53baed;
+    margin: 30px 0;
+}
+
+.exercise h2 {
+    color: black;
+}
+
+.exercise img {
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,4 +1,10 @@
 #select-buttons {
-    margin-top: 100px;
-    height: calc(100vh - 350px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: calc(100vh - 142px);
+}
+
+#select-buttons .btn-c {
 }

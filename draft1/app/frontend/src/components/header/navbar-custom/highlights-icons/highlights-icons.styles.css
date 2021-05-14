@@ -1,0 +1,17 @@
+#highlights-icons {
+	font-size: 1.25rem;
+	font-weight: bold;
+    margin-right: 16px;
+}
+
+#highlights-icons i {
+	margin-left: 10px;
+	line-height: 1.5em;
+	font-weight: 700;
+}
+
+@media only screen and (max-width: 575px) {
+	#highlights-icons {
+		display: none;
+	}
+}

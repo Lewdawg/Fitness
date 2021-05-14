@@ -19,9 +19,9 @@ app.listen(port, () => console.log(`server listening on port ${port}`));
 /* serves the build directory on root */
 app.use(express.static(path.join(__dirname, 'frontend', 'build')));
 
-/* api routes */
-const workoutsRoutes = require('./routes/workouts.routes.js');
-app.use(workoutsRoutes());
+/* ROUTES */
+const api = require('./routes/api.routes.js');
+app.use('/api', api());
 /* just a test route for the google maps api request */
 app.get('/api/testMaps', async (req, res) => {
     /* &type=park ==> to only get the parks */

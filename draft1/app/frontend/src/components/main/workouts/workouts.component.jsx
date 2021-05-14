@@ -2,7 +2,6 @@ import './workouts.styles.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-
 import Workout from './workout/workout.component.jsx';
 
 function Workouts({ quickSearchFilter }) {
@@ -10,51 +9,37 @@ function Workouts({ quickSearchFilter }) {
 
 	useEffect(() => {
 		axios('/api/workouts')
-			.then((response) =>
-				setWorkouts([{ 'STATE NAME': 'WORKOUTS' }, ...response.data])
-			)
+			.then((response) => {
+				const responseWorkouts = response.data;
+				if (quickSearchFilter.active) {
+					const filteredWorkouts = responseWorkouts.filter(
+						(workout) =>
+							(workout.difficulty === quickSearchFilter.difficulty ||
+								quickSearchFilter.difficulty === '') &&
+							(workout.location === quickSearchFilter.location ||
+								quickSearchFilter.location === '') &&
+							(workout.duration === quickSearchFilter.duration ||
+								quickSearchFilter.duration === '')
+					);
+					setWorkouts([{ 'STATE NAME': 'WORKOUTS' }, ...filteredWorkouts]);
+					return;
+				}
+				setWorkouts([{ 'STATE NAME': 'WORKOUTS' }, ...responseWorkouts]);
+			})
 			.catch(console.error);
-	}, []);
+	});
+	/* question: why 4 times ? setTimeout(() => console.log('workouts:\n', workouts), 3000); */
 
-	/* 	<div className="card-list">
-			{workouts.map((workout, index) => (
-				<Card {...{ key: index + 1, workout }} />
-			))}
-		</div> */
-
-	/* {quickSearchFilter.active
-					? workouts.filter((workout, index) => {
-							if (
-								workout.difficulty === quickSearchFilter.difficulty &&
-								workout.duration === quickSearchFilter.duration &&
-								workout.location === quickSearchFilter.location
-							)
-								return (
-									<div className="col-md-4">
-										<Card {...{ key: index + 1, workout }} />
-									</div>
-								);
-							return null;
-					  })
-					: workouts.map((workout, index) => {
-							if (index === 0) return null;
-							return (
-								<div className="col-md-4">
-									<Card {...{ key: index + 1, workout }} />
-								</div>
-							);
-					  })} */
-
-	setTimeout(() => console.log('workouts:\n', workouts), 3000);
 	return (
-
 		<div id="workouts">
-			{workouts.map((workout, index) => {
-				if (index === 0) return null;
-				return <Workout {...{ key: index + 1, workout }} />;
-			})}
+			<h1 className="fadeIn">Amount of Workouts: {workouts.length - 1}</h1>
+			<div className="workouts-container">
+				{workouts.map((workout, index) => {
+					if (index === 0) return null;
+					return <Workout {...{ key: index + 1, workout }} />;
+				})}
+			</div>
 		</div>
-
 	);
 }
 
