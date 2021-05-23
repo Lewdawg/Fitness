@@ -1,4 +1,6 @@
 .personalTotals {
+    width: 95%; 
+    height: 28%;
     border: 3px solid gray;
     border-radius: 25px;
 
@@ -8,7 +10,7 @@
 }
 
 .personalTotals p {
-    font-size: 1.4vw;
+    font-size: 1.7rem;
 }
 
 .personalTotals div {

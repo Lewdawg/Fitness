@@ -10,12 +10,11 @@ function PersonalInfoTop() {
 
     return (
 
-        <div className="ppInfoImage" style={{ width: '95%', height: '58%' }}>
+        <div className="ppInfoImage">
 
-
-            <Card className="aboutMe" style={{ width: '48%', height: '85%' }}>
-                <Card.Title className="cardTitle">About Me</Card.Title>
-                <Card.Text className="cardText">
+            <Card className="aboutMe">
+                <Card.Title className="cardTitle fadeIn first mt-2">About Me</Card.Title>
+                <Card.Text className="cardText fadeIn second">
                     Name: Lewes Walton <br />
                 Age: 31 <br />
                 From: UK <br />
@@ -26,7 +25,7 @@ function PersonalInfoTop() {
                 </Card.Text>
             </Card>
 
-            <img src={banana} alt="" className="userImg" style={{ width: '48%', height: '85%' }} />
+            <img src={banana} alt="" className="userImg fadeIn first mt-2" />
         </div>
     )
 }

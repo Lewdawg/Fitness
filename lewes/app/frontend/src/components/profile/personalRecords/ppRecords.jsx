@@ -6,18 +6,11 @@ import PersonalBest from './personalBest/personalBest.jsx'
 
 function PpRecords() {
 
-
-
     return (
-
-        <div className='ppRecords' style={{ width: '58%', height: '95%' }}>
-
+        <div className='ppRecords'>
             <PersonalBest />
-
             <PersonalTotals />
-
         </div>
-
     )
 }
 
