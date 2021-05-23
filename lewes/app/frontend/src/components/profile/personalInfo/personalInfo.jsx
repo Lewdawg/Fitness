@@ -35,9 +35,9 @@ function PersonalInfo({
     const setUsersInfo = (e) => {
         e.preventDefault();
 
-        const newUser = {
+        const User = {
             method: 'POST',
-            url: 'https://thelaptopshop.herokuapp.com/signUp',
+            url: '',
             data: {
                 "name": usersName,
                 "age": usersAge,
@@ -47,13 +47,15 @@ function PersonalInfo({
                 "gender": usersGender
             }
         }
+        // axios(User)
+        //     .then((result) => {
+        //         console.log(result)
 
-        // setUsersName,
-        //     setUsersAge,
-        //     setUsersCountry,
-        //     setUsersHeight
-        // setUsersWeight,
-        //     setUsersGender,
+        //     })
+        //     .catch(err => {
+        //         console.log(err.message)
+        //         alert('Invalid Email or Password')
+        //     })
     }
 
     return (

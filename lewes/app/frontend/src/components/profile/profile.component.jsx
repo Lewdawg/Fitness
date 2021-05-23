@@ -15,18 +15,23 @@ function ProfilePage() {
 	// const [usersWeight, setUsersWeight] = useState('')
 	// const [usersGender, setUsersGender] = useState('')
 
-	const [usersTotalCalories, setUsersTotalCalories] = useState('')
-	const [userCompletedWO, setUsersCompletedWO] = useState('')
+	// const [usersTotalCalories, setUsersTotalCalories] = useState('')
+	// const [userCompletedWO, setUsersCompletedWO] = useState('')
 
-	const [usersFavWorkout, setUsersFavWorkout] = useState('')
-	const [usersLastWorkout, setUsersLastWorkout] = useState('')
+	// const [usersFavWorkout, setUsersFavWorkout] = useState('')
+	// const [usersLastWorkout, setUsersLastWorkout] = useState('')
 
 
 	return (
 		<>
 			<h1 className="profileHeader wrapper fadeInDown mt-1">Your Profile</h1>
 			<div id="userProfilePage" className="wrapper fadeInDown mt-1">
-				<PersonalRecords {...{ usersTotalCalories, userCompletedWO, usersFavWorkout, usersLastWorkout }} />
+				<PersonalRecords {...{
+					// usersTotalCalories,
+					// userCompletedWO,
+					// usersFavWorkout,
+					// usersLastWorkout
+				}} />
 				<PersonalInfo {...{
 					// usersName,
 					// setUsersName,

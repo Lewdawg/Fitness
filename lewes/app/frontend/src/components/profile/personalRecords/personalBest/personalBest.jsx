@@ -1,8 +1,19 @@
 import './personalBest.css';
 
+import { useState } from 'react';
 import Card from 'react-bootstrap/Card'
 
-function PersonalBest() {
+function PersonalBest({
+    // setUsersFavWorkout, 
+    // setUsersLastWorkout 
+}) {
+
+    const [usersTotalCalories, setUsersTotalCalories] = useState('')
+    const [userCompletedWO, setUsersCompletedWO] = useState('')
+
+    fetch('http://example.com/')
+        .then(response => response.json())
+        .then(data => console.log(data));
 
     return (
 
@@ -26,7 +37,7 @@ function PersonalBest() {
                 Last time completed <br />
                 </Card.Text>
             </Card>
-            <Card className="bestCardLayout">
+            {/* <Card className="bestCardLayout">
                 <Card.Title className="bestCardLayoutTitle fadeIn first mt-2">Next Workout</Card.Title>
                 <Card.Text className="bestCardLayoutDetails fadeIn second">
                     Workout.title<br />
@@ -35,7 +46,7 @@ function PersonalBest() {
                 how many time completed <br />
                 Last time completed <br />
                 </Card.Text>
-            </Card>
+            </Card> */}
         </div>
     )
 }
