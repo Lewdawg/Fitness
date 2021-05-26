@@ -13,8 +13,8 @@ function ProfilePage() {
 		<>
 			<h1 className="profileHeader wrapper fadeInDown mt-1">Your Profile</h1>
 			<div id="userProfilePage" className="wrapper fadeInDown mt-1">
-				<PersonalRecords />
 				<PersonalInfo />
+				<PersonalRecords />
 			</div>
 		</>
 	);

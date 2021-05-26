@@ -34,12 +34,13 @@ function PersonalInfo() {
     }
 
     return (
+        
 
-        <div className="personalInfo">
-
+        <div id="personalInfo">
             <div className="profileImage">
                 <img src={banana} alt="" className="userImg fadeIn first mt-2" />
-                <Card className="aboutMe">
+            </div>
+            <Card className="aboutMe">
 
                     <Card.Title className="cardTitle fadeIn first mt-2">About Me</Card.Title>
                     <Card.Text className="cardText fadeIn second">
@@ -58,13 +59,8 @@ function PersonalInfo() {
                         <button className="btn-c" onSubmit={setUsersInfo}>Update</button>
                     </Card.Text>
                 </Card>
-            </div>
-
-            {/* <PersonalInfoTop /> */}
-
-            {/* <PersonalInfoBot /> */}
-
         </div>
+        
     )
 }
 

@@ -1,18 +1,21 @@
 .personalTotals {
-    width: 95%; 
-    height: 28%;
-    border: 3px solid gray;
-    border-radius: 25px;
-
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  /* height: 28%; */
+  border: 3px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
 
 .personalTotals p {
-    font-size: 1.7rem;
+  font-size: 18px;
+  margin: auto;
 }
 
 .personalTotals div {
-    border: 1px solid gray;
+  border: 1px solid gray;
+  height: 40px;
 }

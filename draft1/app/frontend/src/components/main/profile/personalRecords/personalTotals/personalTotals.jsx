@@ -16,9 +16,9 @@ function PersonalTotals() {
 
     return (
         <div className="personalTotals fadeIn second">
-            <p>Calories Burnt: {userData.totalCal}</p>
-            <div style={{ height: '70%' }}></div>
-            <p>Total Workout Completed: {userData.completedWO}</p>
+            <p>Calories Burnt: 2000{/* {userData.totalCal} */}</p>
+            <div></div>
+            <p>Total Workout Completed: 5000{/* {userData.completedWO} */}</p>
         </div>
     )
 }
