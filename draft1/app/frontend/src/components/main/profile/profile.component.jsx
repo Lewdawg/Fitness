@@ -1,9 +1,13 @@
 import './profile.styles.css';
 
+import { useState } from 'react';
+
+
 import PersonalRecords from './personalRecords/ppRecords.jsx';
 import PersonalInfo from './personalInfo/personalInfo.jsx';
 
 function ProfilePage() {
+
 
 	return (
 		<>

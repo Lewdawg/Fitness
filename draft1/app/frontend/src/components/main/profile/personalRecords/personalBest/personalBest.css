@@ -3,6 +3,7 @@
     height: 68%;
     /* border: 5px solid purple;
     border-radius: 15px; */
+position: relative;
 
     display: flex;
     justify-content: space-evenly;
@@ -15,6 +16,7 @@
     border: 3px solid grey;
     border-radius: 25px;
     text-align: center;
+    /* position: absolute; */
 }
 
 .bestCardLayoutTitle {

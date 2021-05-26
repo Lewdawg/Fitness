@@ -1,13 +1,62 @@
-.ppInfo {
+.personalInfo {
     width: 38%;
-    height: 95%;
-    height: 600px;
-    /* border: 5px solid blue; */
-    border-radius: 25px;
+    height: 100%;
+    border: 5px solid blue;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
 
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
     align-items: center;
 }
 
+#personalInput{
+    width: 30%;
+}
+
+.profileImage {
+    height: 15%;
+    text-align: center;
+    /* border: 2px solid orangered; */
+    /* position: relative; */
+}
+
+.aboutMe {
+    border: 3px solid gray;
+    border-radius: 10px; 
+    margin: 30px 20px 10px;
+    /* position: absolute; */
+    /* overflow: scroll; */
+}
+
+.cardTitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.cardText {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin: 0 25px; */
+    /* padding: 0 ; */
+}
+
+.cardText > label {
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cardText > input {
+    margin: 5px 0;
+}
+
+.userImg {
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* margin: 0 auto; */
+}

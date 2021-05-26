@@ -1,14 +1,24 @@
 import './personalTotals.css';
 
+import { useState, useEffect } from 'react';
+import axios from 'axios';
+
 function PersonalTotals() {
+
+    const [userData, setUserData] = useState({})
+
+    useEffect(() =>
+        axios(
+            "/api/user"
+        )
+            .then(setUserData)
+    )
 
     return (
         <div className="personalTotals fadeIn second">
-            <p>Calories Burnt: 3300</p>
+            <p>Calories Burnt: {userData.totalCal}</p>
             <div style={{ height: '70%' }}></div>
-            <p>Total Workout Completed: 16</p>
-            <div style={{ height: '70%' }}></div>
-            <p>Kms Ran: 9</p>
+            <p>Total Workout Completed: {userData.completedWO}</p>
         </div>
     )
 }
