@@ -10,44 +10,42 @@ import ExeDetails from './workoutSide/exedetails.jsx';
 
 function Details() {
 
-
     return (
 
         <div id="mainBigDiv" className="fadeInDown">
-
-            <h1>Card Title</h1>
+            <h1>Card.Title</h1>
 
             <section id="cardLayout">
 
+                <StopWatch />
+
                 <div id="theWorkout" >
-                    <div className="section section-headers">
+                    {/* <div className="section section-headers">
                         <div>Exercise</div>
                         <div>Amount</div>
                         <div>Total</div>
                         <div>Add</div>
-                    </div>
-
-                    <ExeDetails />
-                    <ExeDetails />
-                    <ExeDetails />
-                    <ExeDetails />
-                    <ExeDetails />
-
-
-                    {/* <div className="section">
-                        <Button variant="danger" size="lg" block className="m-2 width-50">Finish Workout</Button>
                     </div> */}
 
+                    <ExeDetails />
+                    <ExeDetails />
+                    <ExeDetails />
+                    <ExeDetails />
+                    <ExeDetails />
+
+                    <ExeDetails />
+                    <ExeDetails />
+                    <ExeDetails />
+                    <ExeDetails />
+                    <ExeDetails />
                 </div>
 
+                <Counter />
 
-                <div id="theTimer">
-                    <Counter />
-                    <StopWatch />
-                </div>
+                {/* <div id="theTimer">*/}
 
+                {/* </div> */}
             </section>
-
         </div>
     )
 }
