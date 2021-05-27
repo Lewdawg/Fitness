@@ -39,12 +39,41 @@
   padding-left: 5%;
 }
 
-.cardText > input {
-  /* height: 50px; */
+.userImg {
+  /* max-width: 50%; */
+  max-width: 175px;
+  border: 1px solid #88cef2;
+  border-radius: 10px;
 }
 
-.userImg {
-  width: 50%;
-  border: 1px solid gray;
-  border-radius: 10px;
+@media only screen and (min-width: 600px) {
+  .cardText > label {
+      font-size: 14px;
+  }
+  .userImg {
+    max-width: 225px;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .cardText > label {
+      font-size: 16px;
+  }
+  .userImg {
+    max-width: 275px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cardText > label {
+      font-size: 18px;
+  }
+  .cardTitle {
+    font-size: 22px;
+  }
+  .userImg {
+    max-width: 325px;
+  }
+  .cardText button {
+    width: 90%;
+    margin: 10px auto 20px;
+  }
 }

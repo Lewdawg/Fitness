@@ -34,33 +34,31 @@ function PersonalInfo() {
     }
 
     return (
-        
-
         <div id="personalInfo">
             <div className="profileImage">
                 <img src={banana} alt="" className="userImg fadeIn first mt-2" />
             </div>
             <Card className="aboutMe">
 
-                    <Card.Title className="cardTitle fadeIn first mt-2">About Me</Card.Title>
-                    <Card.Text className="cardText fadeIn second">
-                        <label htmlFor="name">Name:</label>
-                        <input id='personalInput' type="text" value={usersName} onChange={(e) => setUsersName(e.target.value)} required /><br />
-                        <label htmlFor="age">Age:</label>
-                        <input id='personalInput' type="number" value={usersAge} onChange={(e) => setUsersAge(e.target.value)} required /><br />
-                        <label htmlFor="country">Country:</label>
-                        <input id='personalInput' type="text" value={usersCountry} onChange={(e) => setUsersCountry(e.target.value)} /><br />
-                        <label htmlFor="height">Height:</label>
-                        <input id='personalInput' type="number" value={usersHeight} onChange={(e) => setUsersHeight(e.target.value)} /><br />
-                        <label htmlFor="weight">Weight:</label>
-                        <input id='personalInput' type="number" value={usersWeight} onChange={(e) => setUsersWeight(e.target.value)} /><br />
-                        <label htmlFor="gender">Gender:</label>
-                        <input id='personalInput' type="text" value={usersGender} onChange={(e) => setUsersGender(e.target.value)} /><br />
-                        <button className="btn-c" onSubmit={setUsersInfo}>Update</button>
-                    </Card.Text>
-                </Card>
+                <Card.Title className="cardTitle fadeIn first mt-2">About Me</Card.Title>
+                <Card.Text className="cardText fadeIn second">
+                    <label htmlFor="name">Name:</label>
+                    <input id='personalInput' type="text" value={usersName} onChange={(e) => setUsersName(e.target.value)} required /><br />
+                    <label htmlFor="age">Age:</label>
+                    <input id='personalInput' type="number" value={usersAge} onChange={(e) => setUsersAge(e.target.value)} required /><br />
+                    <label htmlFor="country">Country:</label>
+                    <input id='personalInput' type="text" value={usersCountry} onChange={(e) => setUsersCountry(e.target.value)} /><br />
+                    <label htmlFor="height">Height:</label>
+                    <input id='personalInput' type="number" value={usersHeight} onChange={(e) => setUsersHeight(e.target.value)} /><br />
+                    <label htmlFor="weight">Weight:</label>
+                    <input id='personalInput' type="number" value={usersWeight} onChange={(e) => setUsersWeight(e.target.value)} /><br />
+                    <label htmlFor="gender">Gender:</label>
+                    <input id='personalInput' type="text" value={usersGender} onChange={(e) => setUsersGender(e.target.value)} /><br />
+                    <button className="btn-c" onSubmit={setUsersInfo}>Update</button>
+                </Card.Text>
+            </Card>
         </div>
-        
+
     )
 }
 

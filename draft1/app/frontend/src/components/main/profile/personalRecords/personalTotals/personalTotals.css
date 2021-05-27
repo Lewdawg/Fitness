@@ -19,3 +19,14 @@
   border: 1px solid gray;
   height: 40px;
 }
+
+@media only screen and (min-width: 600px) {
+  .personalTotals {
+      padding: 10px 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .personalTotals div {
+    display: none;
+  }
+}
