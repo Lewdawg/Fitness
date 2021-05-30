@@ -28,7 +28,6 @@ function Workouts({ quickSearchFilter }) {
 			})
 			.catch(console.error);
 	});
-	/* question: why 4 times ? setTimeout(() => console.log('workouts:\n', workouts), 3000); */
 
 	return (
 		<div id="workouts">
