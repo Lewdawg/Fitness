@@ -4,9 +4,6 @@
     border-radius: 10px;
     border: 3px solid #56baed;
     margin: 20px auto 0;
-    /* position: relative; */
-    /* display: flex;
-    flex-direction: column; */
 }
 
 #cardLayout {
@@ -18,20 +15,8 @@
 #theWorkout {
     display: flex;
     flex-direction: column;  
-    /* position: relative; */
-    /* border: 1px solid red; */
     border-radius: 10px;  
     margin: 25px 0;
-}
-
-#theTimer {
-    /* width: 45%; 
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 3px solid gray;
-    border-radius: 10px; */
 }
 
 h1 {
@@ -41,16 +26,7 @@ h1 {
     font-size: 30px;
 }
 
-
 .section-headers {
     margin: 15px 0;
     font-weight: bold;
-
-}
-
-
-.checkBoxes {
-    /* background-color: saddlebrown; */
-    /* display: flex;
-    justify-content: space-evenly; */
 }

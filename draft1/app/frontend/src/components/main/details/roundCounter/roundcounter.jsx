@@ -1,9 +1,7 @@
-import React, { useState } from 'react'
-
-import Button from 'react-bootstrap/Button'
-import CalAndDuration from './calAndDuration/calanddur'
-
 import './roundcounter.css'
+
+import React, { useState } from 'react'
+import Button from 'react-bootstrap/Button'
 
 
 function Counter() {
@@ -24,7 +22,15 @@ function Counter() {
 
             </div>
 
-            <CalAndDuration />
+            <div className="calAndDurationInfo">
+                <div>
+                    <p>Calories: 000</p>
+                </div>
+
+                <div>
+                    <p>Duration: 30min</p>
+                </div>
+            </div>
         </div>
     )
 }

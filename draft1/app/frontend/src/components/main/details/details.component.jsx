@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 import Counter from './roundCounter/roundcounter.jsx';
 import StopWatch from './stopwatch/stopwatch.jsx';
-import ExeDetails from './workoutSide/exedetails.jsx';
+import Exercises from './exercises/exercises.jsx';
 
 
 function Details() {
@@ -20,31 +20,20 @@ function Details() {
                 <StopWatch />
 
                 <div id="theWorkout" >
-                    {/* <div className="section section-headers">
-                        <div>Exercise</div>
-                        <div>Amount</div>
-                        <div>Total</div>
-                        <div>Add</div>
-                    </div> */}
 
-                    <ExeDetails />
-                    <ExeDetails />
-                    <ExeDetails />
-                    <ExeDetails />
-                    <ExeDetails />
+                    <Exercises />
+                    <Exercises />
+                    <Exercises />
+                    <Exercises />
+                    <Exercises />
 
-                    <ExeDetails />
-                    <ExeDetails />
-                    <ExeDetails />
-                    <ExeDetails />
-                    <ExeDetails />
+                    <Exercises />
+                    <Exercises />
+                    <Exercises />
+                    <Exercises />
+                    <Exercises />
                 </div>
-
                 <Counter />
-
-                {/* <div id="theTimer">*/}
-
-                {/* </div> */}
             </section>
         </div>
     )

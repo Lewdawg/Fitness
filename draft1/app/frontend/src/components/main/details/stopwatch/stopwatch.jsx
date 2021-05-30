@@ -64,9 +64,9 @@ function Stopwatch() {
       <div>
         <label>{formatTime(timer)} </label>
 
-        <Button variant="primary" className="timeButt" onClick={handleRunClick} >{running ? 'Stop' : 'Start'}</Button>
+        <Button variant="primary" onClick={handleRunClick} >{running ? 'Stop' : 'Start'}</Button>
 
-        <Button variant="warning" className="timeButt" onClick={handleClearClick} >Clear</Button>
+        <Button variant="warning" onClick={handleClearClick} >Clear</Button>
         {/* </div>
 
       <div> */}

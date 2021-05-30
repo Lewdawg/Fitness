@@ -2,10 +2,10 @@ import Button from 'react-bootstrap/Button'
 
 import { useState } from 'react'
 
-import './exedetails.css';
+import './exercises.css';
 
 
-function Exedetails() {
+function Exercises() {
 
     const [amount, setAmount] = useState(0)
     const [total, setTotal] = useState(0)
@@ -13,7 +13,7 @@ function Exedetails() {
     return (
         <div className="section">
 
-            <div>Squats</div>
+            <div>SquatsSquatsSquatsSquats</div>
             <input type="number" onChange={(e) => setAmount(e.target.value)} value={amount} />
             <input type="number" disabled value={total} />
 
@@ -22,4 +22,4 @@ function Exedetails() {
     )
 }
 
-export default Exedetails
+export default Exercises
