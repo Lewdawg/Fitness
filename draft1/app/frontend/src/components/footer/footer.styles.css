@@ -1,5 +1,5 @@
 #footer {
-	height: 56px;
+	height: 36px;
     width: 100%;
 	background-color: white;
 	display: flex;
@@ -14,7 +14,18 @@
 }
 
 #footer p {
-	font-size: 1.25rem;
+	font-size: 10px;
 	font-weight: bold;
     margin: 0;
+}
+
+@media only screen and (min-width: 600px) {
+	#footer p {
+		font-size: 15px;
+	}
+}
+@media only screen and (min-width: 1500px) {
+	#footer p {
+		font-size: 18px;
+	}
 }
