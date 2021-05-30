@@ -1,8 +1,7 @@
 import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Container from 'react-bootstrap/Container';
+
 import Image from 'react-bootstrap/Image';
-import banana from '../banana.jpg';
+
 import './exercise.styles.css';
 
 function Exercise({ exercise }) {
@@ -12,7 +11,6 @@ function Exercise({ exercise }) {
 				<Card.Title className="m-3">
 					<h2>{exercise.title}</h2>
 				</Card.Title>
-				{/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
 
 				<a href="https://www.youtube.com/watch?v=aclHkVaku9U" target="_blank">
 					<Image src={exercise.img} className="exerciseVid" rounded />
@@ -24,11 +22,6 @@ function Exercise({ exercise }) {
 							<li key={index + 1}>{instruction}</li>
 						))}
 					</ol>
-					{/* <ListGroup className="instructions">
-						{exercise.instructions.map((instruction, index) => (
-							<ListGroup.Item key={index + 1}>{instruction}</ListGroup.Item>
-						))}
-					</ListGroup> */}
 				</Card.Text>
 			</Card.Body>
 		</Card>
