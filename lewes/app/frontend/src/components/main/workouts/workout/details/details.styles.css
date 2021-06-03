@@ -1,0 +1,53 @@
+#details {
+	background-color: white;
+	border-radius: 10px;
+	border: 3px solid #56baed;
+	margin: 20px;
+}
+
+.cardLayout {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.tracking {
+    margin: 40px;
+}
+
+#details tr {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#details td {
+	width: 20%;
+    flex: 1 1 50px;
+	line-height: 100%;
+	margin: 0 20px 20px;
+}
+
+#details th {
+	width: 20%;
+    flex: 1 1 50px;
+	font-size: 1.5rem;
+	padding-right: 10px;
+	padding: 0;
+	margin: 0 20px 20px;
+}
+
+#details th:nth-of-type(n+3) {
+	text-align: center;
+}
+
+#details td input, #details th input, #details td button {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#details td input:first-of-type {
+	text-align: left;
+}
