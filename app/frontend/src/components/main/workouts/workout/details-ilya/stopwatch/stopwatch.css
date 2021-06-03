@@ -1,0 +1,27 @@
+.watchDiv {
+    width: 45%; 
+    height: 95%;
+    border: 5px solid #56baed;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.stopWatchSplit {
+    border-bottom: 2px solid #56baed;
+    height: 12%;
+    width: 80%;
+    margin: auto;
+}
+
+.timeButt {
+    font-size: 1.3rem;
+    margin: 5px 0 15px;
+}
+
+.record {
+    margin-top: 25px;
+}
+
+.record input {
+    margin-top: 25px;
+}
