@@ -33,36 +33,125 @@
 		"img": "https://images.unsplash.com/photo-1566241134883-13eb2393a3cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
 	},
 	{
-		"title": "Pull-Ups",
-		"instructions": [
-			"Grab The Bar. Grip it about shoulder-width apart. ...",
-			"Hang. Raise your feet off the floor by bending your knees. ...",
-			"Pull. Pull yourself up by pulling your elbows down to the floor. ...",
-			"Pass The bar. ...",
-			"Repeat."
-		],
-		"img": "https://images.unsplash.com/photo-1520334363269-c1b342d17261?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=637&q=80"
-	},
-	{
-		"title": "Push-Ups",
+		"title": "Burpees",
 		"instructions": [
 			"Get down on all fours, placing your hands slightly wider than your shoulders.",
 			"Straighten your arms and legs.",
 			"Lower your body until your chest nearly touches the floor.",
-			"Pause, then push yourself back up.",
+			"Push up and jump your feet to your hands and spring upwards raising your hands in the air.",
+			"Land back down, place your hand by your feet and jump your feet back into push up position.",
 			"Repeat."
 		],
-		"img": "https://images.unsplash.com/photo-1514512364185-4c2b0985be01?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+		"img": "https://images.unsplash.com/photo-1509411627497-1f19a8db1854?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fHB1c2glMjBqdW1wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 	},
 	{
-		"title": "Pull-Ups",
+		"title": "Sit-Ups",
 		"instructions": [
-			"Grab The Bar. Grip it about shoulder-width apart. ...",
-			"Hang. Raise your feet off the floor by bending your knees. ...",
-			"Pull. Pull yourself up by pulling your elbows down to the floor. ...",
-			"Pass The bar. ...",
+			"Lie on your back with a slight bend in your knees and arms bent at the elbows and hands lightly touching your head by the ears.",
+			"Engage your core and lift your upper body so your elbows touch your knees.",
+			"Return to the start position",
 			"Repeat."
 		],
-		"img": "https://images.unsplash.com/photo-1520334363269-c1b342d17261?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=637&q=80"
+		"img": "https://images.unsplash.com/photo-1594381898411-846e7d193883?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTQ4fHx3b3Jrb3V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Lunges",
+		"instructions": [
+			"Start by standing straight.",
+			"Step forward with one foot until your leg reaches a 90-degree angle.",
+			"Lift your front lunging leg to return to the starting position.",
+			"Repeat."
+		],
+		"img": "https://images.unsplash.com/photo-1595571024048-45a59177f538?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "V-sit ups",
+		"instructions": [
+			"Lie flat on your back. Extend your arms overhead, hands touching the floor.",
+			"Squeeze your abs and lift your shoulders and legs off the floor at the same time. Try to reach your hands to your feet. in the middle of your body",
+			"Slowly return back to starting position.",
+			"Repeat."
+		],
+		"img": "https://images.unsplash.com/photo-1564356533237-46945af0eb1e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJlbnQlMjBvdmVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Crunches",
+		"instructions": [
+			"Lie on your back on a mat with knees bent and feet flat on the floor.",
+			"Cross your arms in front of your chest.",
+			"Crunch your ab muscles to lift your shoulders and feet off the mat.",
+			"Hold for a second, then slowly come back down to starting position.",
+			"Repeat."
+		],
+		"img": "https://images.unsplash.com/photo-1610360358706-a76349b74e61?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njd8fHdvcmtvdXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Pendulum ",
+		"instructions": [
+			"lay on your back, keeping your legs together and knees straight, raise your legs until they're perpendicular with the floor.",
+			"Contract your abs and slowly lower your legs to the right, stopping just before your feet touch the floor.",
+			"then reverse the movement and repeat on the other side.",
+			"Repeat."
+		],
+		"img": "https://images.unsplash.com/photo-1535463861654-838685c8e158?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fGxlZyUyMHJhaXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Reverse fly",
+		"instructions": [
+			"Start standing with your feet hip-width apart. Holding a dumbbell in each arm, bring your arms straight out in front of you.",
+			"Slowly spread your arms apart to a T-shape. Move slowly and with control. ",
+			"With control, bring your arms back to the parallel position.",
+			"Repeat."
+		],
+		"img": "https://images.unsplash.com/photo-1480264104733-84fb0b925be3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTI1fHx3b3Jrb3V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Shoulder Press",
+		"instructions": [
+			"Stand with feet shoulder-width apart and hold the dumbbells at shoulder height with your elbows at a 90-degree angle.",
+			"Slowly lift the dumbbells above your head without fully straightening your arms. Pause at the top.",
+			"Repeat."
+		],
+		"img": "https://images.unsplash.com/photo-1585152968992-851c3a8e1678?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzAxfHx3b3Jrb3V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Side raises",
+		"instructions": [
+			"Stand or sit with a dumbbell in each hand at your sides.",
+			"Keep your back straight, brace your core, and then slowly lift the weights out to the side until your arms are parallel with the floor.",
+			"elbow slightly bent.",
+			"Repeat."
+		],
+		"img": "https://images.unsplash.com/photo-1437935690510-49ce2c715aee?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDUzfHx3b3Jrb3V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Mountain Climbers",
+		"instructions": [
+			"Get down on all fours, placing your hands slightly wider than your shoulders.",
+			"Straighten your arms and legs.",
+			"Bring one knee towards your abs and then straighten it back out and do the same with the other leg.",
+			"Repeat."
+		],
+		"img": "https://images.unsplash.com/photo-1562771379-44b243dedac5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzQ0fHx3b3Jrb3V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Tuck Jumps",
+		"instructions": [
+			"Standing with your feet a little less than shoulder-width apart.",
+			"Drop down a little into a quarter squat then explode into the air.",
+			"Keep your back straight throughout, and tuck your knees up towards your chest as much as possible, before landing as softly as you can.",
+			"Repeat."
+		],
+		"img": "https://images.unsplash.com/photo-1618073193837-1ef8254fa417?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njc2fHx3b3Jrb3V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+	},
+	{
+		"title": "Floor to Stands",
+		"instructions": [
+			"Lay down on your front.",
+			"Push up into all fours and get into a standing position",
+			"Pause and then get back into a laying down position.",
+			"Repeat."
+		],
+		"img": "https://images.unsplash.com/photo-1619987767073-fffdaa776ce8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzA4fHx3b3Jrb3V0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
 	}
 ]
