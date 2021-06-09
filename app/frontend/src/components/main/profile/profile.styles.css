@@ -1,238 +1,357 @@
-#userProfilePage {
-  width: 95%;
-  padding-top: 0;
-  background-color: white;
-  border-radius: 10px;
-  border: 2px solid #88cef2;
-  height: auto !important;
-  margin: 10px auto !important;
+#profile {
+	width: 95%;
+	max-width: 1280px;
+	padding-top: 0;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px solid #88cef2;
+	height: auto !important;
+	margin: 30px auto 91px !important;
+}
 
+#profile .bestCards img {
+	height: 250px;
+	width: 100%;
+	object-fit: cover;
+	object-position: top;
+}
+
+#profile .update {
+	width: 100%;
+	margin: 10px 0 0;
+}
+@media only screen and (min-width: 1200px) {
+	#profile .update {
+		position: absolute;
+		left: 62px;
+		width: calc(100% - 111px);
+		bottom: 20px;
+	}
+}
+
+#profile .btn-c:disabled {
+	background-color: rgb(220, 220, 220);
+	color: rgb(100, 100, 100);
 }
 
 .profileHeader {
-  color: white;
+	color: white;
 }
 
 #personalInfo {
-  width: 100%;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+	width: 100%;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
 }
 
 #personalInput {
-  width: 90%;
-  margin: 0 auto;
-  height: 25px;
+	width: 90%;
+	margin: 0 auto;
+	height: 25px;
 }
 
 .profileImage {
-  display: flex;
-  padding-bottom: 10px;
-  margin-top: 10px;
+	display: flex;
+	padding-bottom: 10px;
+	margin-top: 10px;
 }
 
 .aboutMe {
-  width: 100%;
-  border: 3px solid gray;
-  border-radius: 10px;
-  margin-bottom: 10px;
+	width: 100%;
+	border: 3px solid gray;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	padding: 30px;
 }
 
 .cardTitle {
-  text-align: center;
-  font-weight: bold;
+	text-align: center;
+	font-weight: bold;
 }
 
 .cardText {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .cardText > label {
-  margin-top: 10px;
-  font-weight: bold;
-  font-size: 10px;
-  padding-left: 5%;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 10px;
+	padding-left: 5%;
 }
 
 .userImg {
-  max-width: 175px;
-  border: 1px solid #88cef2;
-  border-radius: 10px;
+	max-width: 175px;
+	border: 1px solid #88cef2;
+	border-radius: 10px;
 }
 
 .personalTotals {
-  width: 100%;
-  border: 3px solid gray;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+	width: 100%;
+	border: 3px solid gray;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 .personalTotals p {
-  font-size: 10px;
-  margin: 0;
+	width: 50%;
+	font-size: 10px;
+	margin: 0;
+	text-align: center;
+}
+.personalTotals p:first-child {
+	margin-right: -1px;
 }
 
 .personalTotals div {
-  border: 1px solid gray;
-  height: 40px;
+	border: 1px solid gray;
+	height: 40px;
 }
-
-
 
 /* personal best */
 .bestCards {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .bestCardLayout {
-  width: 100%;margin-right: 10px !important;
-  border: 3px solid grey;
-  border-radius: 10px;
-  text-align: center;
-  margin-bottom: 10px;
+	width: 100%;
+	margin-right: 10px !important;
+	border: 3px solid grey;
+	border-radius: 10px;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
-
-
+.bestCardLayout:last-child {
+	margin-right: 0px !important;
+}
 
 @media only screen and (min-width: 600px) {
-  .cardText > label {
-      font-size: 14px;
-  }
-  .userImg {
-    max-width: 225px;
-  }
-  .bestCards {
-    flex-direction: row;
-  }
-  .bestCardLayout:nth-child(1) {
-    margin-right: 10px;
-    
-  }
+	.cardText > label {
+		font-size: 14px;
+	}
+	.userImg {
+		max-width: 225px;
+	}
+	.bestCards {
+		flex-direction: row;
+	}
+	.bestCardLayout:nth-child(1) {
+		margin-right: 10px;
+	}
 }
 
 @media only screen and (min-width: 769px) {
-  .personalTotals p {
-    font-size: 15px;
-  }
-
+	.personalTotals p {
+		font-size: 15px;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
-  .cardText > label {
-      font-size: 18px;
-  }
-  .cardTitle {
-    font-size: 22px;
-  }
-  .userImg {
-    max-width: 325px;
-  }
-  .cardText button {
-    width: 90%;
-    margin: 10px auto 20px;
-  }
-  .personalTotals div {
-    display: none;
-  }
-  .profileHeader {
-    font-size: 40px;
-  }
-  .personalTotals {
-    height: 60px;
-  }
+	.cardText > label {
+		font-size: 18px;
+	}
+	.cardTitle {
+		font-size: 22px;
+	}
+	.userImg {
+		max-width: 325px;
+	}
+	.cardText button {
+		width: 90%;
+		margin: 10px auto 20px;
+	}
+	.personalTotals div {
+		display: none;
+	}
+	.profileHeader {
+		font-size: 40px;
+	}
+	.personalTotals {
+		height: 60px;
+	}
+	.personalTotals p {
+		font-size: 1.2rem;
+	}
+}
+.profileImage label img:hover {
+	cursor: pointer;
 }
 
-
-/* 
 @media only screen and (min-width: 1200px) {
-  .personalTotals p {
-    font-size: 20px;
-  }
+	#profile {
+		margin: 30px auto 91px !important;
+		min-height: 1111px !important;
+		display: flex;
+		justify-content: start;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: unset;
+		position: relative;
+	}
+
+	.profileImage {
+		width: 30%;
+		display: flex;
+		justify-content: center;
+		position: absolute;
+		height: 30vh;
+		top: 45px;
+		left: 45px;
+		margin: 0 0 45px;
+	}
+
+	.profileImage label {
+		display: flex;
+		justify-content: center;
+	}
+
+	.bestCards {
+		display: none;
+		position: absolute;
+		flex-direction: column;
+		width: 400px;
+		top: 300px;
+		left: 25px;
+		bottom: 25px;
+	}
+	.bestCardLayout {
+		position: absolute;
+		top: 0px;
+		left: 20px;
+		width: 350px;
+		height: 30vh;
+		padding-bottom: 15px !important;
+	}
+	.bestCardLayoutDetails {
+		font-size: 22px;
+		line-height: 30px;
+	}
+	#personalInfo {
+		width: 100%;
+	}
+	.userImg {
+		margin: 0;
+		border: 3px solid grey;
+	}
+
+	.aboutMe {
+		width: 60%;
+		position: absolute;
+		top: 45px;
+		right: 50px;
+	}
+
+	.aboutMe .cardTitle {
+		font-size: 1.8rem;
+	}
+
+	.aboutMe .cardText > label {
+		font-size: 1.5rem;
+	}
+
+	.aboutMe #personalInput {
+		margin-bottom: 24px;
+		font-size: 1.25rem;
+	}
+
+	.cardText button {
+		margin-top: 30px;
+	}
+	.personalTotals {
+		width: 60%;
+		position: absolute;
+		bottom: 97px;
+		right: 50px;
+	}
+	.personalTotals p {
+		display: flex;
+		font-size: 25px;
+		height: 50px;
+		justify-content: center;
+		align-items: center;
+	}
 }
- */
 
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-cards {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 313px;
+	left: 40px;
+}
+@media only screen and (max-width: 1200px) {
+	.flip-cards {
+		display: none;
+	}
+}
 
+.flip-card {
+	position: relative;
+	background-color: transparent;
+	width: 300px;
+	height: 300px;
+	perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
 
-@media only screen and (min-width: 1200px) {
-  #userProfilePage {
-    margin: 30px auto !important;
-    height: 100vh !important;
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: unset;
-    position: relative;
-  }
-  .profileImage {
-    width: 30%;
-    /* order: 1;
-    margin-top: 20px !important;
-    margin-left:100px; */
-    position: absolute;
-    height: 30vh;
-    top: 25px;
-    left: 100px;
-  }
-  .bestCards {
-    position: absolute;
-    flex-direction: column;
-    /* order: 2; */
-    width: 30%;
-    left: 25px;
-    bottom: 25px;
-  }
-  .bestCardLayout { 
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+	border: 3px solid grey;
+	border-radius: 10px;
+}
 
-    width: 350px;
-    height: 30vh;
-    padding-bottom: 15px !important;
-    margin-left: 30px;
-  }
-  .bestCardLayoutDetails {
-    font-size: 22px;
-    line-height: 30px;
-  }
-  #personalInfo {
-    width: 100%;
-  }
-  .userImg {
-    max-width: 350px;
-    max-height: 335px;
-  }
-  .aboutMe {
-    width: 60%;
-    /*        height: 82% ;
-    order: 3;
-    margin-top: 30px; */
-    position: absolute;
-    top: 45px;
-    right: 50px;
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
 
-  }
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+	border-radius: 10px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+}
 
-  .cardText button {
-    margin-top: 30px;
-  }
-  .personalTotals {
-    width: 60%;
-    /* order: 4;
-    margin-top: 15px; */
-    position: absolute;
-    bottom: 40px;
-    right: 50px;
-  }
-  .personalTotals p {
-    font-size: 25px;
-    height: 50px;
-    justify-content: center;
-  }
+/* Style the front side (fallback if image is missing) */
+.flip-card-front h3 {
+	margin-top: 8px;
+}
 
+.flip-card-front img {
+	height: 80%;
+	width: 80%;
+	border-radius: 10px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.flip-card-back .btn-c {
+	width: 80%;
+	position: absolute;
+	bottom: 2rem;
+	left: 10%;
+	margin: 0;
+}
+
+/* Style the back side */
+.flip-card-back {
+	transform: rotateY(180deg);
 }

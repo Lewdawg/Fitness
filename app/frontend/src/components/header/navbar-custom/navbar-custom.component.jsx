@@ -5,10 +5,11 @@ import { NavLink } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import HighlightsIcons from './highlights-icons/highlights-icons.component.jsx';
+import axios from 'axios';
 
 function NavbarCustom() {
 	const [navbarExpanded, setNavbarExpanded] = useState(false);
-	const {loggedIn, setLoggedIn} = useContext(AppContext);
+	const { loggedIn, setLoggedIn } = useContext(AppContext);
 
 	return (
 		<Navbar
@@ -77,7 +78,7 @@ function NavbarCustom() {
 					</NavLink>
 					<NavLink
 						onClick={() => {
-							setLoggedIn(false)
+							axios.post('api/logout').then(setLoggedIn(false)).catch(console.warn);
 						}}
 						className="nav-link"
 						role="button"
@@ -98,10 +99,9 @@ function NavbarCustom() {
 					<NavLink className="nav-link" role="button" to="/contact">
 						Contact
 					</NavLink>
-
-					<NavLink className="nav-link" role="button" to="/QuickSearchOld">
-						QuickSearchOld
-					</NavLink>
+					{/* <NavLink className="nav-link" role="button" to="/map">
+						Map
+					</NavLink> */}
 				</Nav>
 			</Navbar.Collapse>
 			<HighlightsIcons {...{ navbarExpanded }} />

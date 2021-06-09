@@ -70,7 +70,7 @@ function Stopwatch() {
         {/* </div>
 
       <div> */}
-        <Button variant="success" className="timeButt" size='lg'>Finish Workout</Button>
+        
       </div>
     </div>
   )

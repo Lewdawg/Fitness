@@ -20,6 +20,7 @@ function Login() {
 			history.push('/login/success');
 		} catch (error) {
 			setLoginFailed(true);
+			setLoggedIn(false);
 			history.push('/login');
 		}
 	};

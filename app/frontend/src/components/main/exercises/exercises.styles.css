@@ -1,3 +1,7 @@
+#exercises {
+    padding-bottom: 61px;
+    margin: 5px 25px;
+}
 
 .exerciseCollection {
     display: flex;
@@ -12,6 +16,10 @@
     }
 }
 @media only screen and (min-width: 800px) {
+    #exercises {
+        margin: 5px;
+    }
+
     #exercises h1{
         font-size: 38px;
     }

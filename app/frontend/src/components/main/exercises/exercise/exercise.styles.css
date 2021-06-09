@@ -18,6 +18,12 @@
     object-fit: cover;
     object-position: center;
 }
+
+.exercise .card-text {
+    height: 35%;
+    overflow: auto;
+}
+
 .instructions {
     text-align: left;
 }

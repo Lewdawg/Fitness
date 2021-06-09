@@ -5,7 +5,6 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import HighlightsTicker from './highlights-ticker/highlights-ticker.component.jsx'; */
 import SelectButtons from './select-buttons/select-buttons.component.jsx';
 import QuickSearch from './quick-search/quick-search.component.jsx';
-import QuickSearchOld from './quick-search-old/quick-search-old.component.jsx';
 import Workouts from './workouts/workouts.component.jsx';
 import Login from './login/login.component.jsx';
 import LoginSuccess from './login/login-success/login-success.component.jsx';
@@ -17,30 +16,25 @@ import ProfileSuccess from './profile/profile-success/profile-success.component.
 import Details from './workouts/workout/details/details.component.jsx';
 import Contact from './contact/contact.component.jsx';
 import Error from './error/error.component.jsx';
+import WorkoutSaved from './workouts/workout/details/workoutSaved/workoutSaved.component.jsx';
+import ConfirmAccount from './register/confirmAccount/confirmAccount.component.jsx';
+/* import Map from './maps/Maps.js'; */
+
 
 import { useContext } from 'react';
 import AppContext from '../../contexts/AppContext.js';
 import Unauthorized from './unauthorized/unauthorized.component.jsx';
 
-function Main({
-	workouts,
-	setWorkouts,
-	display,
-	setDisplay,
-	quickSearchFilter,
-	setQuickSearchFilter,
-}) {
+function Main({ workouts, setWorkouts, display, setDisplay }) {
 	const { loggedIn } = useContext(AppContext);
 
-	const ProtectedRoute = (props) => {
+	/* const ProtectedRoute = (props) => {
 		if (!loggedIn) return <Redirect to='/unauthorized' />
 		return <Route {...props} />
-	  }
+	  } */
 
 	return (
-
 		<main id="main">
-
 			<Switch>
 				<Route exact path="/">
 					<SelectButtons
@@ -49,8 +43,6 @@ function Main({
 							setWorkouts,
 							display,
 							setDisplay,
-							quickSearchFilter,
-							setQuickSearchFilter,
 						}}
 					/>
 				</Route>
@@ -62,8 +54,6 @@ function Main({
 							setWorkouts,
 							display,
 							setDisplay,
-							quickSearchFilter,
-							setQuickSearchFilter,
 						}}
 					/>
 				</Route>
@@ -74,8 +64,6 @@ function Main({
 							workouts,
 							setWorkouts,
 							display,
-							setDisplay,
-							quickSearchFilter,
 						}}
 					/>
 				</Route>
@@ -98,14 +86,13 @@ function Main({
 					<RegisterSuccess />
 				</Route>
 
-				<ProtectedRoute path="/profile">
+				<Route path="/profile">
 					<Profile />
-				</ProtectedRoute>
+				</Route>
 
-				<ProtectedRoute path="/profileSuccess">
+				<Route path="/profileSuccess">
 					<ProfileSuccess />
-				</ProtectedRoute>
-
+				</Route>
 
 				<Route path="/unauthorized">
 					<Unauthorized />
@@ -121,10 +108,17 @@ function Main({
 					<Error />
 				</Route>
 
-				<Route path="/QuickSearchOld">
-					<QuickSearchOld />
+				<Route path="/workoutSaved">
+					<WorkoutSaved />
 				</Route>
 
+				<Route path="/confirmAccount">
+					<ConfirmAccount />
+				</Route>
+
+				{/* <Route path="/map">
+					<Map />
+				</Route> */}
 			</Switch>
 		</main>
 	);

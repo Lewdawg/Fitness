@@ -1,38 +1,38 @@
-import './roundcounter.css'
+import './roundcounter.css';
 
-import React, { useState } from 'react'
-import Button from 'react-bootstrap/Button'
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
 
+function Counter({ rounds, calories, duration }) {
+	const [count, setCount] = useState(rounds);
 
-function Counter() {
+	return (
+		<div id="roundAndInfo">
+			<div className="mainCounter">
+				<h3 className="roundsRemaining">Rounds Remaining</h3>
 
-    const [count, setCount] = useState(5)
+				<h2 className="count">{count}</h2>
 
-    return (
-        <div id="roundAndInfo">
+				<Button
+					variant="danger"
+					className="m-1"
+					onClick={() => (count - 1 >= 0) && setCount( count - 1 )}
+				>
+					Round Completed
+				</Button>
+			</div>
 
-            <div className="mainCounter">
+			<div className="calAndDurationInfo">
+				<div>
+					<p>Calories: {calories}</p>
+				</div>
 
-                <h3 className='roundsRemaining'>Rounds Remaining</h3>
-
-                <h2 className='count'>{count}</h2>
-
-                {/* <Button variant="success" className="m-1" size='lg' onClick={() => setCount(count + 1)}>+1</Button> */}
-                <Button variant="danger" className="m-1" onClick={() => setCount(count - 1)}>Round Completed</Button>
-
-            </div>
-
-            <div className="calAndDurationInfo">
-                <div>
-                    <p>Calories: 000</p>
-                </div>
-
-                <div>
-                    <p>Duration: 30min</p>
-                </div>
-            </div>
-        </div>
-    )
+				<div>
+					<p>Duration: {duration} min</p>
+				</div>
+			</div>
+		</div>
+	);
 }
 
-export default Counter
+export default Counter;

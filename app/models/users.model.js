@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
+const randomstring = require('randomstring');
 
 const userSchema = new mongoose.Schema({
 	email: {
@@ -13,6 +14,10 @@ const userSchema = new mongoose.Schema({
 	},
 	approved: {
 		type: Boolean,
+		required: true,
+	},
+	confirmationKey: {
+		type: String,
 		required: true,
 	},
 	name: {
@@ -49,7 +54,8 @@ userSchema.pre('save', async function (next) {
 		user.password = await bcrypt.hash(user.password, 12);
 
 	/* set approved property to false for security */
-	user.approved = true;
+	/* user.approved = false; */
+	 user.confirmationKey = randomstring.generate();
 
 	next();
 });
@@ -59,7 +65,6 @@ const User = mongoose.connection.model('users', userSchema);
 const createOneUser = async ({
 	email,
 	password,
-	approved,
 
 	name,
 	age,
@@ -73,7 +78,8 @@ const createOneUser = async ({
 	await new User({
 		email,
 		password,
-		approved,
+		approved: false,
+		confirmationKey: 'placeholder',
 
 		name,
 		age,
@@ -84,6 +90,9 @@ const createOneUser = async ({
 		img,
 		workouts,
 	}).save();
+
+const confirmOneUser = async (confirmationKey) =>
+	await User.updateOne({ confirmationKey }, { approved: true });
 
 const readOneUser = async (email) => await User.findOne({ email });
 
@@ -97,26 +106,21 @@ const updateOneUser = async ({
 	height,
 	weight,
 	gender,
-	img
+	img,
 }) =>
 	await User.updateOne(
 		{ email },
 		{ name, age, country, height, weight, gender, img }
 	);
 
-const updateOneUserWorkouts = async ({
-	email,
-	workouts
-}) =>
-	await User.updateOne(
-		{ email },
-		{ workouts }
-	);
+const updateOneUserWorkouts = async ({ email, workouts }) =>
+	await User.updateOne({ email }, { workouts });
 
 module.exports = {
 	createOneUser,
+	confirmOneUser,
 	readOneUser,
 	updateOneUser,
 	readAllUsers,
-	updateOneUserWorkouts
+	updateOneUserWorkouts,
 };

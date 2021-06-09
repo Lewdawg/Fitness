@@ -1,6 +1,9 @@
 #main {
 	position: relative;
-	padding-bottom: 61px;
+	min-height: calc(100vh - 122px);
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .bg-img {

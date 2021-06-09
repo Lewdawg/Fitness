@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 
 module.exports = async (req, res, next) => {
 	try {
-		await jwt.verify(
+		res.locals.payload = await jwt.verify(
 			req.cookies.token,
 			process.env.JWT_SECRET,
 			(error, payload) => {
@@ -14,6 +14,7 @@ module.exports = async (req, res, next) => {
 		);
 		next();
 	} catch (e) {
+		res.clearCookie('token');
 		res.status(401).send();
 	}
 };

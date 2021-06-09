@@ -84,8 +84,7 @@ function Register() {
 			e.preventDefault();
 			await axios.post('/api/register', {
 				email: emailValue,
-				password: passwordValue,
-				approved: false,
+				password: passwordValue
 			});
 			history.push('/register/success');
 		} catch (error) {

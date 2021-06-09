@@ -1,10 +1,15 @@
 #details {
+	width: 100%;
+	margin: 20px 20px 81px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
 	background-color: white;
 	border-radius: 10px;
 	border: 3px solid #56baed;
-	margin: 20px;
 }
-
 .cardLayout {
 	width: 100%;
 	display: flex;
@@ -12,42 +17,136 @@
 }
 
 .tracking {
-    margin: 40px;
+	padding-top: 10px !important;
+}
+
+.tracking-small {
+	display: none;
 }
 
 #details tr {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 #details td {
-	width: 20%;
-    flex: 1 1 50px;
-	line-height: 100%;
-	margin: 0 20px 20px;
+	flex: 1;
+	margin-right: 10px;
+}
+
+#details td:first-child {
+	display: flex;
+	align-items: center;
+}
+
+#details td:last-child {
+	margin-right: 0;
+}
+
+#details td button {
+	width: 100%;
+	height: 100%;
+}
+#details td input {
+	height: 100%;
+	width: 100%;
 }
 
 #details th {
-	width: 20%;
-    flex: 1 1 50px;
 	font-size: 1.5rem;
-	padding-right: 10px;
 	padding: 0;
-	margin: 0 20px 20px;
+	margin-bottom: 5px;
+	width: 20%;
 }
 
-#details th:nth-of-type(n+3) {
-	text-align: center;
+#details .tracking-small tr {
+	margin-bottom: 5px;
 }
 
-#details td input, #details th input, #details td button {
+#details .tracking-small th {
+	font-size: 1rem;
+	line-height: 150%;
+	min-width: 30%;
+	padding: 0;
+	max-width: 85px;
+}
+
+#details .tracking-small td {
+	font-size: 1rem;
+	line-height: 150%;
+	max-width: 500px;
+}
+
+#details .tracking-small td input {
 	width: 100%;
-	height: 100%;
-	padding: 0;
+}
+
+#details .tracking-small .buttons {
+	display: flex;
+	justify-content: space-between;
 	margin: 0;
 }
 
-#details td input:first-of-type {
-	text-align: left;
+#details .tracking-small .buttons button {
+	margin: 0;
+	width: 45%;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 30px;
+}
+
+.section-headers {
+	margin: 15px 0;
+	font-weight: bold;
+}
+
+.tracking-small btn {
+	color: #4ba2ff !important;
+	opacity: 9 !important;
+}
+
+.tracking {
+	display: none;
+}
+
+.tracking-small {
+	display: table;
+	margin: 20px auto;
+	width: 90%;
+}
+
+.timeButt {
+	border-radius: 0;
+	margin: 16px 0 0;
+}
+@media only screen and (min-width: 1024px) {
+	.timeButt {
+		border-radius: 4px;
+		margin: 16px 40px;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	.tracking-small {
+		width: 400px;
+	}
+}
+
+@media only screen and (min-width: 1072px) {
+	.tracking {
+		display: block;
+		margin: 20px 40px;
+	}
+	.tracking-small {
+		display: none;
+	}
+	.tracking .btn {
+		background-color: #4ba2ff !important;
+		opacity: 9 !important;
+	}
 }

@@ -28,7 +28,7 @@ function Workout({ workout }) {
 
 				<div className="row-4">
 					<div className="profile-overview">
-						<h5 className="col">Duration: {workout.duration}</h5>
+						<h5 className="col">Duration: {workout.duration} Min</h5>
 					</div>
 				</div>
 

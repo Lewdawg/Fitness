@@ -1,3 +1,7 @@
+#login.wrapper {
+	padding-bottom: 91px;
+}
+
 #login a:hover {
 	text-decoration: none;
 }

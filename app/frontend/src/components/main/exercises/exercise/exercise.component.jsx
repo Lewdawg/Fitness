@@ -4,8 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Image from 'react-bootstrap/Image';
 import './exercise.styles.css';
 
-function Exercise({exercise}) {
-	console.log('exercise aus einzelner exercise komponente:', exercise);
+function Exercise({ exercise }) {
 	return (
 		<Card className="exercise fadeInDown second">
 			<Card.Body>
@@ -20,7 +19,7 @@ function Exercise({exercise}) {
 
 				<Card.Text>
 					<ol className="instructions">
-					 	{exercise.instructions.map((instruction, index) => (
+						{exercise.instructions.map((instruction, index) => (
 							<li key={index + 1}>{instruction}</li>
 						))}
 					</ol>

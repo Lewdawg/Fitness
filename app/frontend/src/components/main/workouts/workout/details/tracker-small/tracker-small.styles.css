@@ -1,0 +1,35 @@
+/* .tracker-small {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 1024px) {
+  .tracker-small {
+      font-size: 15px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+    .tracker-small {
+        font-size: 22px;
+    }
+  } */
+
+
+.buttons button {
+    /* display: flex;
+    justify-content: center; */
+    margin: 5px 20px 20px 0;
+    background-color: #4ba2ff;
+	opacity: 10;
+}
+
+
+@media only screen and (min-width: 769px) {
+	.tracking-small input {
+        width: 77%;
+
+    }
+
+
+}
